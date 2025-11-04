@@ -942,20 +942,6 @@ Replace https://^sthecochranelibrary.com^
 Find https&#x3a;&#x2f;&#x2f;www&#x2e;cochranelibrary&#x2e;com
 Replace https://^swww.cochranelibrary.com^
 
-Title The Chronicle of Higher Education
-MimeFilter application/json .* javascript
-URL https://www.chronicle.com
-HJ http://chronicle.com
-HJ http://www.chronicle.com
-NeverProxy thechronicleofhighereducation.disqus.com
-NeverProxy disqus.com
-NeverProxy mediacdn.disqus.com
-DJ chronicle.com
-HJ chronicle.com
-HJ www.chronicle.com
-Find http:\/\/
-Replace http://
-
 # Updated per RAL 2019-12-02
 Title CollegeSource Online
 URL https://cso.collegesource.com/
