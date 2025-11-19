@@ -2755,45 +2755,6 @@ T Sanborn Maps
 U http://sanborn.umi.com
 DJ sanborn.umi.com
 
-Title Science - AAAS (updated 20210712)
-URL https://www.sciencemag.org
-HJ http://www.sciencemag.org
-HJ https://science.sciencemag.org
-HJ https://sciencecareers.sciencemag.org
-HJ https://search.sciencemag.org
-HJ https://advances.sciencemag.org
-HJ https://immunology.sciencemag.org
-HJ https://robotics.sciencemag.org
-HJ https://stke.sciencemag.org
-HJ https://stm.sciencemag.org
-HJ https://sciencemag.org
-HJ https://www.sciencemag.org
-HJ https://news.sciencemag.org
-HJ https://classic.sciencemag.org
-HJ https://sageke.sciencemag.org
-HJ https://www.science.org
-HJ www.science.org
-HJ https://aaas-prod.science.org
-HJ science.sciencemag.org
-HJ sciencecareers.sciencemag.org
-HJ search.sciencemag.org
-HJ advances.sciencemag.org
-HJ immunology.sciencemag.org
-HJ robotics.sciencemag.org
-HJ stke.sciencemag.org
-HJ stm.sciencemag.org
-HJ sciencemag.org
-HJ www.science.org
-HJ www.sciencemag.org
-HJ news.sciencemag.org
-HJ classic.sciencemag.org
-HJ aaas-prod.science.org
-HJ sageke.sciencemag.org
-DJ sciencemag.org
-DJ science.org
-DJ aaas-prod.science.org
-DJ literatumonline.com
-
 # Updated per ralight 2023-04-21
 Title AIPP Publishing Platform (formerly Scitation) (OCLC IncludeFile updated 20230419)
 URL https://pubs.aip.org
