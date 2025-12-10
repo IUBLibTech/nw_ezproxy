@@ -901,24 +901,6 @@ Title	CountryWatch
 URL http://www.countrywatch.com/ip
 DJ countrywatch.com
 
-# Updated per ralight 2023-01-10
-Title CQ Researcher  (updated 20230106)
-URL http://library.cqpress.com/cqresearcher/
-HJ library.cqpress.com
-# Additional https HJ added, not included in OCLC stanza
-HJ https://library.cqpress.com
-DJ library.cqpress.com
-DJ cqpress.com
-Find &url=http://
-Replace &url=http://^A
-Find &url=https://
-Replace &url=https://^A
-
-Title	CQ Weekly
-URL http://library.cqpress.com/cqweekly
-URL http://library2.cqpress.com/cqweekly
-DJ cqpress.com
-
 Title Credo Reference (updated 20180717)
 URL https://search.credoreference.com
 DJ credoreference.com
