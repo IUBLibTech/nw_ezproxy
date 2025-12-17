@@ -662,13 +662,19 @@ DJ pinnacle-secure.allenpress.com
 DJ meridian.allenpress.com
 Option Cookie
 
-# Updated per ralight 2023-05-17
-Title American National Biography Online (OCLC IncludeFile updated 20230515)
+# Updated per ralight 2025-12-17
+Title American National Biography Online (updated 20251211)
+HTTPHeader -request -inject x-proxy-server (server:url:http =~ "@^http://([^:]+)@", re:1)
 URL https://www.anb.org
+HJ https://www.anb.org
 HJ anb.org
 HJ https://anb.org
 HJ www.anb.org
 DJ anb.org
+NeverProxy oup-idp.sams-sigma.com
+NeverProxy oup2-idp.sams-sigma.com
+NeverProxy oup3-idp.sams-sigma.com
+#This resource also requires the Oxford Reference stanza
 
 # Updated per ralight 2022-07-07
 # Stanza previously called American Thoracic Society Journals
