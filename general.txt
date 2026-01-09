@@ -169,24 +169,29 @@ DJ atsjournals.org
 DJ ajrccm.org
 DJ ajrcmb.org
 
-Title Annual Reviews (updated 20180220)
-HTTPHeader -ignoreGlobal
+# Updated per ralight 2026-01-09
+Title Annual Reviews (updated 20211214)
 URL https://www.annualreviews.org/
-HJ annualreviews.org
 HJ anchem.annualreviews.org
 HJ animal.annualreviews.org
+HJ annualreviews.org
 HJ anthro.annualreviews.org
 HJ arcompsci.annualreviews.org
 HJ arjournals.annualreviews.org
 HJ arplant.annualreviews.org
 HJ astro.annualreviews.org
 HJ biochem.annualreviews.org
+HJ biodatasci.annualreviews.org
 HJ bioeng.annualreviews.org
 HJ biophys.annualreviews.org
+HJ cancerbio.annualreviews.org
 HJ cellbio.annualreviews.org
 HJ chembioeng.annualreviews.org
 HJ clinpsy.annualreviews.org
 HJ conmatphys.annualreviews.org
+HJ control.annualreviews.org
+HJ criminol.annualreviews.org
+HJ devpsych.annualreviews.org
 HJ earth.annualreviews.org
 HJ ecolsys.annualreviews.org
 HJ economics.annualreviews.org
@@ -198,7 +203,10 @@ HJ food.annualreviews.org
 HJ genet.annualreviews.org
 HJ genom.annualreviews.org
 HJ http://www.annualreviews.org
+HJ https://annualreviews.org
+HJ https://arplant.annualreviews.org
 HJ immunol.annualreviews.org
+HJ knowablemagazine.org
 HJ lawsocsci.annualreviews.org
 HJ linguistics.annualreviews.org
 HJ marine.annualreviews.org
@@ -225,11 +233,8 @@ HJ virology.annualreviews.org
 HJ vision.annualreviews.org
 HJ www.annualreviews.org
 DJ annualreviews.org
+DJ knowablemagazine.org
 
-Title	ASP Resolver
-URL http://www.aspresolver.com
-DJ aspresolver.com
-HJ http://aspresolver.com
 
 #Title	Australasian Legal Information Institute (AustLII) Journals
 #URL http://www.austlii.edu.au/au/journals
@@ -1502,14 +1507,6 @@ Host migration.oxfordjournals.org
 # Mind
 Host mind.oxfordjournals.org
 
-Title The MIT Press Direct (updated 20190410)
-HTTPHeader X-Tizra-Ajax
-HTTPHeader X-Requested-With
-URL https://direct.mit.edu
-HJ http://direct.mit.edu
-HJ https://direct.mit.edu
-DJ mit.edu
-
 # Modern Judaism - A Journal of Jewish Ideas and Experience
 Host mj.oxfordjournals.org
 
@@ -2042,60 +2039,6 @@ HJ http://ebookcentral.proquest.com
 NeverProxy ebookcentral.proquest.com
 NeverProxy iun.ebookcentral.proquest.com
 NeverProxy acs.ebookcentral.proquest.com
-
-HTTPHeader X-Requested-With
-Title ProQuest
-URL http://search.proquest.com/ip
-NeverProxy flow.proquest.com
-NeverProxy order.proquest.com
-NeverProxy rss.proquest.com
-HJ https://search.proquest.com
-HJ m.search.proquest.com
-HJ hv.proquest.com
-DJ proquest.com
-HJ proquest.umi.com
-HJ sanborn.umi.com
-HJ https://ebookcentral.proquest.com
-HJ ebookcentral.proquest.com
-HJ dialog.proquest.com
-HJ historicmapworks.proquest.com
-HJ statab.conquestsystems.com
-HJ hv.conquestsystems.com
-DJ umi.com
-DJ conquest-leg-insight.com
-DJ conquestsystems.com
-DJ m.search.proquest.com
-DJ media.proquest.com
-HJ africanamericanheritage.proquest.com
-HJ congressional.proquest.com
-HJ fedsearch.proquest.com
-HJ https://fold3library.proquest.com
-HJ fold3library.proquest.com
-HJ gateway.proquest.com
-HJ hngraphical.proquest.com
-HJ indianclaims.proquest.com
-HJ literature.proquest.com
-HJ openurl.proquest.com
-HJ parlipapers.proquest.com
-HJ pqrc.proquest.com
-HJ digitalmicrofilm.proquest.com
-HJ digitalmicrofilm1.proquest.com
-HJ newspaperslibrary.proquest.com
-HJ regulatoryinsight.proquest.com
-HJ statabs.proquest.com
-HJ statistical.proquest.com
-HJ trials.proquest.com
-HJ https://trials.proquest.com
-HJ prq.st
-HJ https://datasets.proquest.com
-DJ medicalevidencematters.com
-HJ www.proquestk12.com
-DJ proquestk12.com
-HJ www.proquest.com
-HJ media2.proquest.com
-HJ wt3.proquest.com
-Find window.location.host=="congressional.proquest.com"
-Replace true
 
 T PsychiatryOnline (American Journal of Psychiatry)
 U http://psychiatryonline.org
