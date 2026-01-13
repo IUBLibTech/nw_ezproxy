@@ -2435,14 +2435,6 @@ HJ www.uptodateonline.com
 HJ www.utdol.com
 DJ uptodate.com
 
-Title USMLE easy
-URL https://new.usmle-easy.com/institution
-URL https://new.usmle-easy.com/institution?encInsId=NDUzMjQyMzAx
-DJ s3.amazonaws.com
-DJ usmle-Easy.com
-DJ paeasy.com
-DJ mheducation.com
-
 
 Title	Wiley Interscience
 URL http://www3.interscience.wiley.com
