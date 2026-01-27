@@ -1,0 +1,6 @@
+### Stanzas to Always Authenticate ###
+### INCLUDEFILE ./includes/requireauthentication.txt
+
+INCLUDEFILE ../common_stanzas/aacrjournals.txt
+INCLUDEFILE ../common_stanzas/clarivate.txt
+INCLUDEFILE ../common_stanzas/mathscinet.txt
