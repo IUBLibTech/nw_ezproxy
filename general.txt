@@ -13,9 +13,7 @@ DJ newspaperarchive.com
 ##################### END TEMP/TRIAL STANZAS ##################################
 
 
-Title -hide DOI System
-URL http://dx.doi.org
-Domain doi.org
+# DOI system moved to common stanza
 
 # Updated to https per ralight 2022-07-29
 Title AAPG Datapages
