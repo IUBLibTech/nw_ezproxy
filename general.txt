@@ -194,9 +194,6 @@ HJ www.journals.cambridge.org
 HJ cjo-live.cup.cam.ac.uk
 DJ cambridge.org
 
-Title	CARL UnCover Web
-URL http://www.ingenta.com/
-DJ ingenta.com
 
 #Title	CCH Tax Library
 #URL http://tax.cch.com/ipnetwork
@@ -477,15 +474,7 @@ HJ www.informahealthcare.com
 DJ informaworld.com
 DJ informahealthcare.com
 
-Title INGENTAconnect
-URL http://www.ingenta.com/
-H www.ingenta.com
-H www.ingentaconnect.com
-DJ ingenta.com
-DJ ingentaconnect.com
-H openurl.ingenta.com
-H www.publishingtechnology.com
-DJ publishingtechnology.com
+# IngentaConnect moved to common stanza
 
 Title Irish Newspaper Archive
 URL https://www.irishnewsarchive.com
