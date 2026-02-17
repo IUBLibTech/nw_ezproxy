@@ -365,12 +365,7 @@ URL https://connect.liblynx.com
 HJ connect.liblynx.com
 DJ connect.liblynx.com
 
-Title Britannica - Consumer
-URL https://britannica.com
-HJ eb.com
-HJ www.eb.com  
-HJ www.britannica.com  
-DJ britannica.com
+# Britannica - Consumer moved to common stanza
 
 AnonymousURL +https://media.digitaltheatreplus.com/drm*
 AnonymousURL +https://counter.digitaltheatreplus.com/*
