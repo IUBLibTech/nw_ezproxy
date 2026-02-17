@@ -392,9 +392,7 @@ HJ api.digitaltheatreplus.com
 DJ digitaltheatreplus.com
 AnonymousURL -*
 
-T Ent Today
-U http://www.enttoday.org
-H www.enttoday.org
+# Ent Today moved to common stanza
 
 Title	ERIC
 URL http://www.csa.com/htbin/dbrng.cgi?username=iunw&access=iunw53&cat=eric
