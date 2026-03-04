@@ -604,12 +604,6 @@ U http://www.mitpressjournals.org
 HJ mitpressjournals.org
 DJ mitpressjournals.org
 
-Title	MLA Bibliography
-URL http://firstsearch.oclc.org/
-HJ www.ref.oclc.org:2000
-HJ firstsearch.oclc.org:2000
-DJ oclc.org
-
 
 T netLibrary
 U http://www.netlibrary.com
@@ -2254,11 +2248,7 @@ DJ wiley.com
 #URL http://www.euromonitor.com/wmf/
 #DJ euromonitor.com
 
-Title	WorldCat
-URL http://firstsearch.oclc.org/dbname=WorldCat/FSIP
-HJ www.ref.oclc.org:2000
-HJ firstsearch.oclc.org:2000
-DJ oclc.org
+# OCLC FirstSearch moved to common_stanza
 
 Title Frontier Life
 URL http://www.frontierlife.amdigital.co.uk
@@ -2336,10 +2326,6 @@ AnonymousURL -*?
 ## Some OCLC services have been pre-configured with default settings below. remove the '#' from each line 
 ## associated with the desired service, and add additional options as desired 
 
-## -----------------------------  OCLC FirstSearch ----------------------------------------------
-# T OCLC FirstSearch
-# U http://firstsearch.oclc.org/FSIP
-# DJ oclc.org
 
 ## ---------------------------- Camio and Archive Grid ---------------------------------------------
 
