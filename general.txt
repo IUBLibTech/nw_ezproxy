@@ -32,23 +32,7 @@ NeverProxy https://ps6ee4gk2t.search.serialssolutions.com
 
 # ACM Digital Library moved to common stanza: acmdigital.txt
 
-Title American Chemical Society
-URL http://pubs.acs.org
-HJ acs.org
-HJ cenglobal.acs.org
-HJ https://cenglobal.acs.org
-HJ https://pubs.acs.org
-HJ pubs.acs.org
-HJ www.acs.org
-HJ www.chemistry.org
-HJ www.pubs.acs.org
-DJ acs.org
-Find hostdev="pubsdev.acs.org"
-Replace hostdev="^ppubsdev.acs.org^"
-Find hosttest="pubstest.acs.org"
-Replace hosttest="^ppubstest.acs.org^"
-Find hostprod="pubs.acs.org"
-Replace hostprod="^ppubs.acs.org^"
+# American Chemical Society moved to common stanza
 
 Title Adam Matthew Digital - London Low Life
 URL http://www.amdigital.co.uk
