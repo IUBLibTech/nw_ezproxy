@@ -3,12 +3,6 @@
 
 #################### TRIAL AND TEMPORARY STANZAS ############################
 
-Title Newspaper Archive
-URL https://access.newspaperarchive.com/
-HJ access.newspaperarchive.com
-HJ www.newspaperarchive.com
-HJ newspaperarchive.com
-DJ newspaperarchive.com
 
 ##################### END TEMP/TRIAL STANZAS ##################################
 
