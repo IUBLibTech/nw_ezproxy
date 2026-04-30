@@ -152,14 +152,7 @@ DJ knowablemagazine.org
 #Title	Biological & Agricultural Index
 #URL http://spweb.silverplatter.com/iul?
 
-# Updated per ralight 2022-12-21
-Title BioOne Complete (updated 20200923)
-URL https://www.bioone.org/
-HJ http://www.bioone.org
-HJ https://bioone.org
-HJ http://bioone.org
-HJ www.bioone.org
-DJ bioone.org
+# BioOne Complete moved to common stanza
 
 Title	Books in Print
 URL http://www.booksinprint.com
@@ -335,6 +328,8 @@ DJ id.elsevier.com
 Find redirect_uri=https://
 Replace redirect_uri=https://^A
 
+# TeachingBooks moved to common stanza
+
 Title LibLynx
 URL https://connect.liblynx.com
 HJ connect.liblynx.com
@@ -378,16 +373,7 @@ Title EVGOnDemand
 U http://www.evgondemand.com
 D evgondemand.com
 
-# Updated per ralight 2022-07-07
-Title Fulcrum (updated 20180731)
-URL https://www.fulcrum.org
-HJ hdl.handle.net
-HJ https://hdl.handle.net
-HJ www.fulcrum.org
-HJ https://www.fulcrum.org
-HJ fulcrum.org
-HJ https://fulcrum.org
-DJ fulcrum.org 
+# Fulcrum moved to common stanza
 
 Title	Geological Society of America Bulletin
 URL http://gsabulletin.gsapubs.org
@@ -407,37 +393,7 @@ H getitnow.copyright.com
 DJ copyright.com
 DJ getitnow.copyright.com
 
-# Updated per ralight 2022-10-14
-Title Google Scholar (Updated 20221007)
-URL http://scholar.google.com
-Host https://scholar.google.com
-Host scholar.google.com.au
-Host https://scholar.google.com.au
-Host scholar.google.ca
-Host https://scholar.google.ca
-Host scholar.google.de
-Host https://scholar.google.de
-Host scholar.google.fi
-Host https://scholar.google.fi
-Host scholar.google.com.hk
-Host https://scholar.google.com.hk
-Host scholar.google.nl
-Host https://scholar.google.nl
-Host scholar.google.co.nz
-Host https://scholar.google.co.nz
-Host scholar.google.co.uk
-Host https://scholar.google.co.uk
-Host scholar.google.se
-Host https://scholar.google.se
-Host scholar.google.co.za
-Host https://scholar.google.co.za
-Host www.scholar.google.com
-Host https://scholar.google.ae
-Host scholar.google.ae
-Host https://scholar.google.be
-Host scholar.google.be
-Host https://scholar.google.it
-Host scholar.google.it
+# Google Scholar moved to common stanza
 
 Title Harper's Weekly
 URL https://app.harpweek.com
@@ -453,6 +409,7 @@ DJ informaworld.com
 DJ informahealthcare.com
 
 # IngentaConnect moved to common stanza
+# INSPIRE moved to common stanza
 
 Title Irish Newspaper Archive
 URL https://www.irishnewsarchive.com
@@ -1773,12 +1730,7 @@ HJ www.plantphysiol.org
 DJ plantphysiol.org
 DJ plant.org
 
-Title Project Muse
-URL https://muse.jhu.edu/
-HJ https://muse.jhu.edu
-HJ muse.jhu.edu
-HJ muse.uq.edu.au
-DJ muse.jhu.edu
+# Project Muse moved to common stanza
 
 # Updated per ralight 2023-10-06
 Title Ebook Central SSO
