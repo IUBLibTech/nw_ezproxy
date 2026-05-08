@@ -9,16 +9,7 @@
 
 # DOI system moved to common stanza
 
-# Updated to https per ralight 2022-07-29
-Title AAPG Datapages
-URL https://archives.datapages.com/
-HJ http://archives.datapages.com/
-HJ search.datapages.com
-HJ www.aapg.org
-HJ www.searchanddiscovery.com
-DJ datapages.com
-DJ aapg.org
-DJ searchanddiscovery.com
+# AAPG Datapages moved to common stanza
 
 Title SerialsSolutions E-Journal Portal
 NeverProxy ps6ee4gk2t.search.serialssolutions.com
@@ -2053,18 +2044,7 @@ HJ www.press.uchicago.edu
 DJ uchicago.edu
 Option Cookie
 
-Title UpToDate
-URL http://www.uptodate.com
-HJ https://www.uptodate.com
-HJ https://www.uptodateonline.com
-HJ uptodate.com
-HJ uptodateonline.com
-HJ utdol.com
-HJ www.uptodate.com
-HJ www.uptodateonline.com
-HJ www.utdol.com
-DJ uptodate.com
-
+# UpToDate moved to common stanza
 
 Title	Wiley Interscience
 URL http://www3.interscience.wiley.com
@@ -2139,19 +2119,7 @@ Title Daily Redhawk
 URL https://dailyredhawk.iun.edu/viewforum.php?f=6
 H dailyredhawk.iun.edu
 
-AnonymousURL +https://api.wileydigitalarchives.com/*
-Title Wiley Digital Archives
-URL https://app.wileydigitalarchives.com/
-HJ https://app.wileydigitalarchives.com
-HJ https://api.wileydigitalarchives.com
-NeverProxy content.wileydigitalarchives.com
-NeverProxy ajax.googleapis.com
-NeverProxy cdnjs.cloudflare.com
-NeverProxy fonts.googleapis.com
-NeverProxy fonts.gstatic.com
-NeverProxy js.zapjs.com
-NeverProxy maxcdn.bootstrapcdn.com
-AnonymousURL -*?
+#  Wiley Digital Archives moved to common stanza
 
 ## **************************** OCLC Services *************************************************
 ## Some OCLC services have been pre-configured with default settings below. remove the '#' from each line 
