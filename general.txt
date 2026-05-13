@@ -262,6 +262,8 @@ HJ www.choicereviews.org
 HJ choicereviews.org
 DJ choicereviews.org
 
+# CIC E-publishing Venture moved to common stanza: cic-epublishing-venture.txt
+
 # Updated per RAL 2019-12-02
 Title CollegeSource Online
 URL https://cso.collegesource.com/
@@ -1364,6 +1366,8 @@ Host oxrep.oxfordjournals.org
 
 # PubMed moved to common stanza
 
+# Scientific American moved to common stanza: scientific-american.txt
+
 Title University Press Scholarship Online (updated 20200710)
 URL https://www.universitypressscholarship.com/
 HJ britishacademy.universitypressscholarship.com
@@ -1864,11 +1868,7 @@ D compustat.com
 #DJ statref.com
 #HJ statref.com
 
-Title Swank Digital Campus (updated 20200515)
-URL https://digitalcampus.swankmp.net/
-H digitalcampus.swankmp.net
-H https://permalinks.swankmp.net
-D swankmp.net
+# Swank Digital Campus moved to common stanza: swank-digital-campus.txt
 
 ProxyHostnameEdit www.tandfonline.com$ www-tandfonline-com
 Title Taylor & Francis (updated 20190318)
