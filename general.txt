@@ -1657,14 +1657,7 @@ NeverProxy ebookcentral.proquest.com
 NeverProxy iun.ebookcentral.proquest.com
 NeverProxy acs.ebookcentral.proquest.com
 
-T PsychiatryOnline (American Journal of Psychiatry)
-U http://psychiatryonline.org
-HJ www.psychiatryonline.org
-HJ ajp.psychiatryonline.org
-HJ dsm.psychiatryonline.org
-DJ psychiatryonline.org
-HJ www.appi.org
-DJ appi.org
+# PsychiatryOnline (American Journal of Psychiatry) moved to common stanza: psychiatryonline.txt
 
 Title	PsycInfo
 URL http://www.csa2.com/htbin/dbrng.cgi?username=iunw&access=iunw53&cat=psycinfo
