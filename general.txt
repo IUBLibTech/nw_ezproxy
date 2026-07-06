@@ -2011,12 +2011,14 @@ Domain amdigital.co.uk
 
 # Modern Language Association moved to common stanza per ralight 2025-08-13
 
-Title Mango Languages 
-URL https://connect.mangolanguages.com/indiana-university-northwest/try/f809f4fef
-HJ connect.mangolanguages.com 
-HJ https://libraries.mangolanguages.com 
-HJ libraries.mangolanguages.com 
+# Updated per ralight 2026-07-06
+Title Mango Languages (updated 20260622)
+URL https://connect.mangolanguages.com/indiana-university-northwest/start
+HJ connect.mangolanguages.com
+HJ https://libraries.mangolanguages.com
+HJ libraries.mangolanguages.com
 DJ mangolanguages.com
+
 
 Title Geological Society of America Bulletin
 URL https://pubs.geoscienceworld.org/
