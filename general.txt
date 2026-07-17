@@ -1512,12 +1512,7 @@ Host spp.oxfordjournals.org
 # Screen
 Host screen.oxfordjournals.org
 
-# Added & modified per ralight 2022-08-26
-# Stanza added to improve IUCAT experience
-Title Skillport8i
-NeverProxy iu.skillport.com
-NeverProxy https://iu.skillport.com
-NeverProxy https://skillport.iu.edu
+# Skillport8i moved to common stanza: skillport8i.txt
 
 # Social Cognitive and Affective Neuroscience
 Host scan.oxfordjournals.org
@@ -1782,50 +1777,16 @@ D compustat.com
 
 # Swank Digital Campus moved to common stanza: swank-digital-campus.txt
 
-ProxyHostnameEdit www.tandfonline.com$ www-tandfonline-com
-Title Taylor & Francis (updated 20190318)
-HTTPHeader -request -process Access-Token
-URL https://www.tandfonline.com
-HJ http://www.tandfonline.com
-HJ journalsonline.tandf.co.uk
-HJ afs.tandfonline.com
-HJ amstat.tandfonline.com
-HJ tandfonline.com
-HJ www.journalsonline.tandf.co.uk
-DJ tandfonline.com
-HJ tandfprod.literatumonline.com
-HJ https://tandfonline.com
-DJ literatumonline.com
+# Taylor & Francis moved to common stanza: taylor-francis-online.txt
 
-Title Teaching Channel
-URL https://platform.teachingchannel.com/TeachingChannel
-HJ https://platform.teachingchannel.com/TeachingChannel
-HJ  https://learn.teachingchannel.com 
-DJ platform.teachingchannel.com
-DJ http://learn.teachingchannel.com
+# Teaching Channel moved to common stanza: teaching-channel.txt
 
 #Title The Early Republic
 #URL http://earlyrepublic.press.jhu.edu/ 
 #HJ earlyrepublic.press.jhu.edu
 #DJ earlyrepublic.press.jhu.edu
 
-Title Ulrichsweb
-URL https://ulrichsweb.serialssolutions.com/
-HJ ulrichsweb.serialssolutions.com
-HJ https://ulrichsweb.serialssolutions.com
-HJ www.ulrichsweb.serialssolutions.com
-DJ serialssolutions.com
-HJ ulrichsweb.serialssolutions.com
-HJ www.ulrichsweb.serialssolutions.com
-HJ https://clientcenter.serialssolutions.com
-HJ clientcenter.serialssolutions.com
-HJ www.serialssolutions.com
-HJ serialssolutions.com
-DJ serialssolutions.com
-HJ www.ulrichsweb.com
-HJ ulrichsweb.com
-DJ ulrichsweb.com
-HJ http://ulrichsweb.serialssolutions.com
+# Ulrichsweb moved to common stanza: ulrichsweb.txt
 
 #Title	Vault Career Insider
 #URL http://careerinsider.vault.com/wps/portal/careerinsider?parrefer=717
@@ -1934,27 +1895,7 @@ DJ ucpressjournals.com
 #URL http://caliber.ucpress.net/loi/abt/
 #DJ caliber.ucpress.net
 
-# Updated per ralight 2022-08-15
-Option DomainCookieOnly
-T University of Chicago Press Journals (OCLC IncludeFile updated 20220810)
-U http://www.journals.uchicago.edu
-HJ artfl-project.uchicago.edu
-HJ cjtcs.cs.uchicago.edu
-HJ el.press.uchicago.edu
-HJ https://artfl-project.uchicago.edu
-HJ https://el.press.uchicago.edu
-HJ https://journals.uchicago.edu
-HJ https://www.journals.uchicago.edu
-HJ humanities.uchicago.edu
-HJ journals.uchicago.edu
-HJ letterpress.uchicago.edu
-HJ lib.uchicago.edu
-HJ press.uchicago.edu
-HJ www.journals.uchicago.edu
-HJ www.lib.uchicago.edu
-HJ www.press.uchicago.edu
-DJ uchicago.edu
-Option Cookie
+# University of Chicago Press Journals moved to common stanza: university-chicago-press-journals.txt
 
 # UpToDate moved to common stanza
 
