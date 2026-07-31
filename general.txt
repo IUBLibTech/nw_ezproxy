@@ -7,229 +7,32 @@
 ##################### END TEMP/TRIAL STANZAS ##################################
 
 
-# DOI system moved to common stanza
-
 # AAPG Datapages moved to common stanza
-
-Title SerialsSolutions E-Journal Portal
-NeverProxy ps6ee4gk2t.search.serialssolutions.com
-NeverProxy https://ps6ee4gk2t.search.serialssolutions.com
-
 # ACM Digital Library moved to common stanza: acmdigital.txt
-
+# Adam Matthew moved to common stanza: amdigital.txt
 # American Chemical Society moved to common stanza
-
-Title Adam Matthew Digital - London Low Life
-URL http://www.amdigital.co.uk
-DJ amdigital.co.uk
-HJ secure.amdigital.co.uk
-HJ login.amdigital.co.uk
-HJ https://login.amdigital.co.uk
-HJ https://www.login.amdigital.co.uk
-
-#Title	AgBioForum
-#URL http://www.agbioforum.org/
-#DJ agbioforum.org
-
-
-Option DomainCookieOnly
-Title AAIDD Online Journals
-URL https://www.aaiddjournals.org
-H 65.156.1.66
-HJ aaiddjournals.org
-HJ https://aaiddjournals.org
-HJ https://pinnacle-secure.allenpress.com
-HJ https://www.aaiddjournals.org
-HJ http://www.aaiddjournals.org
-HJ https://meridian.allenpress.com
-HJ www.aaiddjournals.org
-DJ aaiddjournals.org
-DJ pinnacle-secure.allenpress.com
-DJ meridian.allenpress.com
-Option Cookie
-
 # American National Biography Online moved to common stanza
-
-# Updated per ralight 2022-07-07
-# Stanza previously called American Thoracic Society Journals
-Title ATS Journals (updated 20220624)
-URL https://www.atsjournals.org/
-HJ atsjournals.org
-HJ ajrccm.atsjournals.org
-HJ https://atsjournals.org
-HJ pats.atsjournals.org
-HJ www.ajrccm.org
-HJ www.ajrcmb.org
-HJ www.atsjournals.org
-DJ atsjournals.org
-DJ ajrccm.org
-DJ ajrcmb.org
-
 # Annual Reviews moved to common stanza: annual-reviews.txt
-
-
-#Title	Australasian Legal Information Institute (AustLII) Journals
-#URL http://www.austlii.edu.au/au/journals
-#DJ austlii.edu.au
-
-#Title	Bioline International
-#URL http://www.bioline.org.br/journals
-#DJ bioline.org.br
-
-#Title	Biological & Agricultural Index
-#URL http://spweb.silverplatter.com/iul?
-
 # BioOne Complete moved to common stanza
-
-Title	Books in Print
-URL http://www.booksinprint.com
-DJ booksinprint.com
-
-Title Cambridge Journals Online
-URL http://journals.cambridge.org/
-HJ journals.cambridge.org
-HJ www.journals.cambridge.org
-HJ cjo-live.cup.cam.ac.uk
-DJ cambridge.org
-
-
-#Title	CCH Tax Library
-#URL http://tax.cch.com/ipnetwork
-#DJ cch.com
-#DJ tax.cchgroup.com
-
-#Title	
-#URL http://www.cell.com/archive
-#HJ www.cell.com
-#DJ cell.com
-
-Title Chadwyck Early English Books Online
-URL http://eebo.chadwyck.com
-DJ eebo.chadwyck.com
-Find &url=http://
-Replace &url=http://^A
-Find "eebo.chadwyck.com" == document.location.host
-Replace true
-
-Title Chadwyck IIMP
-URL http://iimp.chadwyck.com
-HJ iimp.chadwyck.com
-Find + sDomain +
-Replace + 'iimp.chadwyck.com' +
-
-Title Chadwyck IIMP Full Text
-URL http://iimpft.chadwyck.com
-HJ iimpft.chadwyck.com
-Find + sDomain +
-Replace + 'iimpft.chadwyck.com' +
-
-Title Chadwyck IIPA
-URL http://iipa.chadwyck.com
-HJ iipa.chadwyck.com
-Find + sDomain +
-Replace + 'iipa.chadwyck.com' +
-
-Title Chadwyck Literature Collections
-URL http://collections.chadwyck.com
-HJ collections.chadwyck.com
-Find + sDomain +
-Replace + 'collections.chadwyck.com' +
-
-Title Chadwyck Literature Online
-URL http://lion.chadwyck.com
-HJ lion.chadwyck.com
-Find + sDomain +
-Replace + 'lion.chadwyck.com' +
-
-Title Chadwyck Music
-URL http://music.chadwyck.com
-HJ music.chadwyck.com
-Find + sDomain +
-Replace + 'music.chadwyck.com' +
-
-Title Chadwyck Nineteenth Century Short Title Catalogue
-U http://nstc.chadwyck.com/
-HJ nstc.chadwyck.com
-Find + sDomain +
-Replace + 'nstc.chadwyck.com' +
-
-Title PAO
-URL http://www.chadwyck.co.uk
-DJ chadwyck.co.uk
-HJ www.chadwyck.co.uk
-HJ parlipapers.chadwyck.co.uk
-HJ pao.chadwyck.co.uk
-Find chadwyck.co.uk
-Replace chadwyck.co.uk.^h
-
-
-Title  Chadwyck-Healey Collections
-URL http://collections.chadwyck.com
-HJ  acta.chadwyck.com
-HJ  afi.chadwyck.com
-HJ  brecht.chadwyck.com
-HJ  klassiker.chadwyck.com
-HJ  nsarchive.chadwyck.com
-HJ  fii.chadwyck.com
-HJ  goethe.chadwyck.com
-HJ  iipaft.chadwyck.com
-HJ  iibp.chadwyck.com
-HJ  iimpft.chadwyck.com
-HJ  music.chadwyck.com
-HJ  pld.chadwyck.com
-HJ  pio.chadwyck.com
-HJ  pao.chadwyck.com
-DJ  chadwyck.com
-
-Title Choice Reviews
-URL http://choicereviews.org
-HJ www.cro3.org
-HJ choicereviews.org
-DJ choicereviews.org
-HJ www.choice360.org
-HJ choice360.org
-DJ choice360.org
-HJ cro3.org
-DJ cro3.org
-HJ www.cro2.org
-HJ cro2.org
-DJ cro2.org
-HJ www.choicereviews.org
-HJ choicereviews.org
-DJ choicereviews.org
-
+# Britannica - Consumer moved to common stanza
+# Cambridge Journals Online moved to common stanza: cambridge_core.txt
 # CIC E-publishing Venture moved to common stanza: cic-epublishing-venture.txt
 
-# Updated per RAL 2019-12-02
-Title CollegeSource Online
-URL https://cso.collegesource.com/
-HJ cso.collegesource.com
-HJ http://www.collegesource.org
-HJ www.collegesource.org
-DJ collegesource.org
-DJ dgf.org
-DJ cgf.org
-
-Title	CountryWatch
+# Updated per ralight 2026-07-31
+Title CountryWatch (Updated 20230429)
 URL http://www.countrywatch.com/ip
+HJ https://www.countrywatch.com/ip
+HJ search.countrywatch.com
+HJ data.countrywatch.com
+HJ youthedition.countrywatch.com
+HJ forecast.countrywatch.com
+HJ services.countrywatch.com
+HJ pib.countrywatch.com
+HJ videos.countrywatch.com
+HJ countrywatch.com
 DJ countrywatch.com
 
-#Title	Current History
-#URL  http://www.currenthistory.com
-#HJ www.currenthistory.com
-#DJ currenthistory.com
-
-Title Datamonitor
-URL http://360.datamonitor.com
-HJ www.datamonitor360.com
-HJ www.datamonitor.com
-DJ 360.datamonitor.com
-DJ datamonitor360.com
-
-#Title Dana Press
-#URL http://www.dana.org/books/press/
-#HJ www.dana.org
-#DJ dana.org
+# DOI system moved to common stanza
 
 Title Dictionary of Old English
 URL http://tapor.library.utoronto.ca/
@@ -242,12 +45,13 @@ HJ dictionary.doe.utoronto.ca
 
 # TeachingBooks moved to common stanza
 
+
 Title LibLynx
 URL https://connect.liblynx.com
 HJ connect.liblynx.com
 DJ connect.liblynx.com
 
-# Britannica - Consumer moved to common stanza
+
 
 AnonymousURL +https://media.digitaltheatreplus.com/drm*
 AnonymousURL +https://counter.digitaltheatreplus.com/*
@@ -275,16 +79,7 @@ DJ digitaltheatreplus.com
 AnonymousURL -*
 
 # Ent Today moved to common stanza
-
-Title	ERIC
-URL http://www.csa.com/htbin/dbrng.cgi?username=iunw&access=iunw53&cat=eric
-HJ	www.csa.com
-DJ	csa.com
-
-Title EVGOnDemand
-U http://www.evgondemand.com
-D evgondemand.com
-
+# Foundation Directory Online moved to common stanza: candid.txt
 # Fulcrum moved to common stanza
 
 Title	Geological Society of America Bulletin
@@ -294,9 +89,6 @@ DJ gsapubs.org
 DJ geosociety.org
 DJ gsajournals.org
 
-Title	GeoRef
-URL http://georef.cos.com/
-DJ cos.com
 
 T Get It Now
 U https://getitnow.copyright.com
@@ -306,23 +98,11 @@ DJ copyright.com
 DJ getitnow.copyright.com
 
 # Google Scholar moved to common stanza
-
-Title Harper's Weekly
-URL https://app.harpweek.com
-HJ http://app.harpweek.com
-HJ harpweek.com
-DJ harpweek.com
-
-Title	InformaWorld
-URL http://www.informaworld.com/
-HJ www.informaworld.com/
-HJ www.informahealthcare.com
-DJ informaworld.com
-DJ informahealthcare.com
-
+# Harper's Weekly moved to common stanza: alexanderstreet.com
 # IngentaConnect moved to common stanza
 # INSPIRE moved to common stanza
 
+# Last reviewed by ralight 2026-07-31
 Title Irish Newspaper Archive
 URL https://www.irishnewsarchive.com
 HJ https://www.irishnewsarchive.com
@@ -330,121 +110,26 @@ HJ http://archive.irishnewsarchive.com
 DJ irishnewsarchive.com
 DJ archive.irishnewsarchive.com
 
-Title	IUCAT
-URL http://iucat.iu.edu
-URL http://iucat.indiana.edu
-URL http://www.iucat.iu.edu
-URL Http://www.iucat.indiana.edu
-URL Http://iucat-test.ucs.indiana.edu:12200
-URL http://iucat-alt.iu.edu 
-DJ iucat.iu.edu
-DJ iucat.indiana.edu
-HJ http://webcat7.iu.edu
+# JAMAevidence moved to common stanza: mcgraw_hill_medical.txt
 
-Title	IUCAT Test Database
-URL http://iucat-test.ucs.indiana.edu:12200
-DJ iucat-test.ucs.indiana.edu
 
-Title JAMAevidence
-URL http://jamaevidence.mhmedical.com
-HJ http://jamaevidence.com
-HJ https://jamaevidence.mhmedical.com
-DJ jamaevidence.com
-DJ mhmedical.com
-DJ gsm.com
-DJ books.mcgraw-hill.com
+# Added per ralight 2026-07-31
+Title Kanopy Streaming (updated 20180418)
+URL http://iun.kanopystreaming.com
+H https://iun.kanopystreaming.com
+D kanopystreaming.com
 
-#Title	Joanna Briggs Institute
-#URL http://connect.jbiconnectplus.org
-#DJ jbiconnectplus.org
-#DJ jbiconnect.org
-#DJ joannabriggs.edu.au
-#HJ connect.jbiconnectplus.org
-
-Title Journal of the American Dental Association
-URL http://jada.ada.org 
-DJ ada.org
-
-Title Journal of Dental Education
-URL http://www.jdentaled.org
-DJ jdentaled.org
-
-Title Journal of Dental Hygiene
-URL http://jdh.adha.org
-DJ adha.org
-
-Title	Journal of Periodontology
-URL http://www.joponline.org
-HJ http://www.perio.org/
-DJ joponline.org
-DJ perio.org
-
-HTTPHeader -request -process X-Requested-With
-Title JSTOR Aluka
-URL http://www.aluka.org/
-HJ https://www.aluka.org
-HJ www.aluka.org  
-HJ aluka.org
-HJ https://aluka.org
-DJ aluka.org
-
+# Last reviewed by ralight 2026-07-31
 Title Kanopy (updated 20180418)
 URL http://iun.kanopy.com
 H https://iun.kanopy.com
 D kanopy.com
 
-#T Labor and Employment Law Resource Center
-#U http://laborandemploymentlaw.bna.com
-#DJ bna.com
-#HJ laborandemploymentlaw.bna.com
 
 # Learning Express Library 3.0 - PrepStep for Colleges moved to common stanza
 
-Title	Library Literature
-URL http://vnweb.hwwilsonweb.com/hww/jumpstart.jhtml
-DJ hwwilsonweb.com
-DJ hwwilson.com
-
-Title	London Low Life
-URL http://www.londonlowlife.amdigital.co.uk
-DJ londonlowlife.amdigital.co.uk
-DJ amdigital.co.uk
-
-#Title	Magna Publications
-#URL http://www.magnapubs.com/
-#DJ magnapubs.com
-
-#Title	Market Research Monitor
-#URL http://www.euromonitor.com/mrm/
-#DJ euromonitor.com
-
 # MathSciNet moved to common_stanzas
-
-# Updated per ralight 2022-09-15
-# Stanza previously called McGraw-Hill Encyclopedia of Science & Technology
-Title Access Science 
-URL https://www.accessscience.com 
-HJ accessscience.com 
-HJ https://accessscience.com 
-HJ https://www.accessscience.com 
-HJ www.accessscience.com 
-HJ https://idp.sams-sigma.com/ 
-DJ accessscience.com
-
-Title	Metapress
-URL http://www.metapress.com
-HJ www.metapress.com
-DJ metapress.com
-
-T MIT Press Journals
-U http://www.mitpressjournals.org
-HJ mitpressjournals.org
-DJ mitpressjournals.org
-
-
-T netLibrary
-U http://www.netlibrary.com
-DJ netlibrary.com
+# MIT Press Journals moved to common stanza: mitpressdirect.txt
 
 
 # Updated per RAL 2020-09-01
@@ -454,762 +139,9 @@ H http://www.oldcitypublishing.com
 H www.oldcitypublishing.com
 D oldcitypublishing.com
 
-#Title   Open J-Gate
-#URL http://www.openj-gate.org/
-#DJ openj-gate.org
-#HJ www.openj-gate.org
-#DJ openj-gate.com
-#HJ www.openj-gate.com
-
 # Oxford Academic moved to common stanza
-
-# Acta Biochimica et Biophysica Sinica
-Host abbs.oxfordjournals.org
-
-# Adaptation
-Host adaptation.oxfordjournals.org
-
-# African Affairs
-Host afraf.oxfordjournals.org
-
-# Age and Ageing
-Host ageing.oxfordjournals.org
-
-# AIBS Bulletin
-Host aibsbulletin.oxfordjournals.org
-
-# Alcohol and Alcoholism
-Host alcalc.oxfordjournals.org
-
-# The American Historical Review
-Host ahr.oxfordjournals.org
-
-# American Journal of Epidemiology
-Host aje.oxfordjournals.org
-
-# American Journal of Agricultural Economics
-Host ajae.oxfordjournals.org
-
-# American Journal of Hypertension
-Host ajh.oxfordjournals.org
-
-# The American Journal of Jurisprudence
-Host ajj.oxfordjournals.org
-
-# American Law and Economics Review
-Host aler.oxfordjournals.org
-
-# American Literary History
-Host alh.oxfordjournals.org
-
-# Analysis
-Host analysis.oxfordjournals.org
-
-# Annals of Botany
-Host aob.oxfordjournals.org
-
-# The Annals of Occupational Hygiene
-Host annhyg.oxfordjournals.org
-
-# Annals of Oncology
-Host annonc.oxfordjournals.org
-
-# AoB PLANTS
-Host aobpla.oxfordjournals.org
-
-# Applied Economic Perspectives and Policy
-Host aepp.oxfordjournals.org
-
-# Applied Linguistics
-Host applij.oxfordjournals.org
-
-# Applied Mathematics Research eXpress
-Host amrx.oxfordjournals.org
-
-# Arbitration Law Reports and Review
-Host alrr.oxfordjournals.org
-
-# Archives of Clinical Neuropsychology
-Host acn.oxfordjournals.org
-
-# Astronomy & Geophysics
-Host astrogeo.oxfordjournals.org
-
-# Behavioral Ecology
-Host beheco.oxfordjournals.org
-
-# Bioinformatics
-Host bioinformatics.oxfordjournals.org
-
-# Biometrika
-Host biomet.oxfordjournals.org
-
-# BioScience
-Host bioscience.oxfordjournals.org
-
-# Bioscience Horizons: The International Journal of Student Research
-Host biohorizons.oxfordjournals.org
-
-# Biostatistics
-Host biostatistics.oxfordjournals.org
-
-# BJA: British Journal of Anaesthesia
-Host bja.oxfordjournals.org
-
-# Brain
-Host brain.oxfordjournals.org
-
-# Briefings in Bioinformatics
-Host bib.oxfordjournals.org
-
-# Briefings in Functional Genomics
-Host bfg.oxfordjournals.org
-
-# The British Journal of Aesthetics
-Host bjaesthetics.oxfordjournals.org
-
-# The British Journal of Criminology
-Host bjc.oxfordjournals.org
-
-# The British Journal for the Philosophy of Science
-Host bjps.oxfordjournals.org
-
-# The British Journal of Social Work
-Host bjsw.oxfordjournals.org
-
-# British Medical Bulletin
-Host bmb.oxfordjournals.org
-
-# British Yearbook of International Law
-Host bybil.oxfordjournals.org
-
-# Bulletin of the London Mathematical Society
-Host blms.oxfordjournals.org
-
-# Cambridge Journal of Economics
-Host cje.oxfordjournals.org
-
-# Cambridge Journal of Regions, Economy and Society
-Host cjres.oxfordjournals.org
-
-# The Cambridge Quarterly
-Host camqtly.oxfordjournals.org
-
-# Capital Markets Law Journal
-Host cmlj.oxfordjournals.org
-
-# Carcinogenesis
-Host carcin.oxfordjournals.org
-
-# Cardiovascular Research
-Host cardiovascres.oxfordjournals.org
-
-# Cerebral Cortex
-Host cercor.oxfordjournals.org
-
-# CESifo Economic Studies
-Host cesifo.oxfordjournals.org
-
-# Chemical Senses
-Host chemse.oxfordjournals.org
-
-# Children & Schools
-Host cs.oxfordjournals.org
-
-# The Chinese Journal of Comparative Law
-Host cjcl.oxfordjournals.org
-
-# Chinese Journal of International Law
-Host chinesejil.oxfordjournals.org
-
-# The Chinese Journal of International Politics
-Host cjip.oxfordjournals.org
-
-# Christian bioethics: Non-Ecumenical Studies in Medical Morality
-Host cb.oxfordjournals.org
-
-# Classical Receptions Journal
-Host crj.oxfordjournals.org
-
-# Clinical Infectious Diseases
-Host cid.oxfordjournals.org
-
-# Clinical Kidney Journal
-Host ckj.oxfordjournals.org
-
-# Community Development Journal
-Host cdj.oxfordjournals.org
-
-# The Computer Journal
-Host comjnl.oxfordjournals.org
-
-# Conservation Physiology
-Host conphys.oxfordjournals.org
-
-# Contemporary Women's Writing
-Host cww.oxfordjournals.org
-
-# Continuing Education in Anaesthesia, Critical Care & Pain
-Host ceaccp.oxfordjournals.org
-
-# Contributions to Political Economy
-Host cpe.oxfordjournals.org
-
-# Current Legal Problems
-Host clp.oxfordjournals.org
-
-# Database
-Host database.oxfordjournals.org
-
-Title Defining Gender Online
-URL http://www.gender.amdigital.co.uk
-Host www.gender.amdigital.co.uk
-Host secure.amdigital.co.uk
-
-# Diplomatic History
-Host dh.oxfordjournals.org
-
-# DNA Research
-Host dnaresearch.oxfordjournals.org
-
-# Early Music
-Host em.oxfordjournals.org
-
-# ELT Journal
-Host eltj.oxfordjournals.org
-
-# English: Journal of the English Association
-Host english.oxfordjournals.org
-
-# The English Historical Review
-Host ehr.oxfordjournals.org
-
-# Enterprise & Society: The International Journal of Business History
-Host es.oxfordjournals.org
-
-# Environmental History
-Host envhis.oxfordjournals.org
-
-# Environmental History Review
-Host envihistrevi.oxfordjournals.org
-
-# EP Europace
-Host europace.oxfordjournals.org
-
-# Epidemiologic Reviews
-Host epirev.oxfordjournals.org
-
-# ESHRE Monographs
-Host eshremonographs.oxfordjournals.org
-
-# Essays in Criticism
-Host eic.oxfordjournals.org
-
-# European Heart Journal
-Host eurheartj.oxfordjournals.org
-
-# European Heart Journal - Cardiovascular Imaging
-Host ehjcimaging.oxfordjournals.org
-
-# European Heart Journal Supplements
-Host eurheartjsupp.oxfordjournals.org
-
-# European Journal of International Law
-Host ejil.oxfordjournals.org
-
-# European Journal of Cardio-Thoracic Surgery
-Host ejcts.oxfordjournals.org
-
-# The European Journal of Orthodontics
-Host ejo.oxfordjournals.org
-
-# The European Journal of Public Health
-Host eurpub.oxfordjournals.org
-
-# European Review of Agricultural Economics
-Host erae.oxfordjournals.org
-
-# European Review of Economic History
-Host ereh.oxfordjournals.org
-
-# European Sociological Review
-Host esr.oxfordjournals.org
-
-# Evolution, Medicine, and Public Health
-Host emph.oxfordjournals.org
-
-# Family Practice
-Host fampra.oxfordjournals.org
-
-Title Families in Society
-URL http://familiesinsocietyjournal.org/
-DJ familiesinsociety.org
-
-# Forest & Conservation History 
-Host foreconshist.oxfordjournals.org
-
-# Forestry: An International Journal of Forest Research
-Host forestry.oxfordjournals.org
-
-# Forum for Modern Language Studies
-Host fmls.oxfordjournals.org
-
-Title Foundation Directory Online
-URL https://fconline.foundationcenter.org/ipl.php
-HJ fconline.foundationcenter.org
-DJ foundationcenter.org
-
-# French History
-Host fh.oxfordjournals.org
-
-# French Studies
-Host fs.oxfordjournals.org
-
-# French Studies Bulletin
-Host fsb.oxfordjournals.org
-
-# Gastroenterology Report
-Host gastro.oxfordjournals.org
-
-# Genome Biology and Evolution
-Host gbe.oxfordjournals.org
-
-# Geophysical Journal International
-Host gji.oxfordjournals.org
-
-# Geophysical Supplements to the Monthly Notices of the Royal Astronomical Society
-Host gsmnras.oxfordjournals.org
-
-# German History
-Host gh.oxfordjournals.org
-
-# The Gerontologist
-Host gerontologist.oxfordjournals.org
-
-# Glycobiology
-Host glycob.oxfordjournals.org
-
-# Health & Social Work
-Host hsw.oxfordjournals.org
-
-# Health Education Research
-Host her.oxfordjournals.org
-
-# Health Policy and Planning
-Host heapol.oxfordjournals.org
-
-# Health Promotion International
-Host heapro.oxfordjournals.org
-
-# History Workshop Journal
-Host hwj.oxfordjournals.org
-
-# Holocaust and Genocide Studies
-Host hgs.oxfordjournals.org
-
-# Human Molecular Genetics
-Host hmg.oxfordjournals.org
-
-# Human Reproduction
-Host humrep.oxfordjournals.org
-
-# Human Reproduction Update
-Host humupd.oxfordjournals.org
-
-# Human Rights Law Review
-Host hrlr.oxfordjournals.org
-
-# ICES Journal of Marine Science
-Host icesjms.oxfordjournals.org
-
-# ICSID Review - Foreign Investment Law Journal
-Host icsidreview.oxfordjournals.org
-
-# ILAR Journal
-Host ilarjournal.oxfordjournals.org
-
-# IMA Journal of Applied Mathematics
-Host imamat.oxfordjournals.org
-
-# IMA Journal of Management Mathematics
-Host imaman.oxfordjournals.org
-
-# IMA Journal of Mathematical Control and Information
-Host imamci.oxfordjournals.org
-
-# IMA Journal of Numerical Analysis
-Host imajna.oxfordjournals.org
-
-# Industrial and Corporate Change
-Host icc.oxfordjournals.org
-
-# Industrial Law Journal
-Host ilj.oxfordjournals.org
-
-# Information and Inference: A Journal of the IMA
-Host imaiai.oxfordjournals.org
-
-# Integrative and Comparative Biology
-Host icb.oxfordjournals.org
-
-# Interacting with Computers
-Host iwc.oxfordjournals.org
-
-# Interactive CardioVascular and Thoracic Surgery
-Host icvts.oxfordjournals.org
-
-# Interdisciplinary Studies in Literature and Environment
-Host isle.oxfordjournals.org
-
-# International Data Privacy Law
-Host idpl.oxfordjournals.org
-
-# International Health
-Host inthealth.oxfordjournals.org
-
-# International Immunology
-Host intimm.oxfordjournals.org
-
-# International Immunology Meeting Abstracts
-Host intimmabs.oxfordjournals.org
-
-# International Journal of Constitutional Law
-Host icon.oxfordjournals.org
-
-# International Journal of Epidemiology
-Host ije.oxfordjournals.org
-
-# International Journal of Law and Information Technology
-Host ijlit.oxfordjournals.org
-
-# International Journal of Law, Policy and the Family
-Host lawfam.oxfordjournals.org
-
-# International Journal of Lexicography
-Host ijl.oxfordjournals.org
-
-# International Journal of Low-Carbon Technologies
-Host ijlct.oxfordjournals.org
-
-# International Journal of Public Opinion Research
-Host ijpor.oxfordjournals.org
-
-# International Journal for Quality in Health Care
-Host intqhc.oxfordjournals.org
-
-# International Journal of Refugee Law
-Host ijrl.oxfordjournals.org
-
-# International Journal of Transitional Justice
-Host ijtj.oxfordjournals.org
-
-# International Mathematics Research Notices
-Host imrn.oxfordjournals.org
-
-# International Mathematics Research Papers
-Host imrp.oxfordjournals.org
-
-# International Mathematics Research Surveys
-Host imrs.oxfordjournals.org
-
-# International Relations of the Asia-Pacific
-Host irap.oxfordjournals.org
-
-# ITNOW
-Host itnow.oxfordjournals.org
-
-# Japanese Journal of Clinical Oncology
-Host jjco.oxfordjournals.org
-
-# Jerusalem Review of Legal Studies
-Host jrls.oxfordjournals.org
-
-# Journal of African Economies
-Host jae.oxfordjournals.org
-
-# Journal of the American Academy of Religion
-Host jaar.oxfordjournals.org
-
-# Journal of American History
-Host jah.oxfordjournals.org
-
-# Journal of Analytical Toxicology
-Host jat.oxfordjournals.org
-
-# Journal of Antimicrobial Chemotherapy
-Host jac.oxfordjournals.org
-
-# Journal of Antitrust Enforcement
-Host antitrust.oxfordjournals.org
-
-# The Journal of Applied Poultry Research
-Host japr.oxfordjournals.org
-
-# The Journal of Biochemistry
-Host jb.oxfordjournals.org
-
-# Journal of Chromatographic Science
-Host chromsci.oxfordjournals.org
-
-# Journal of Church and State
-Host jcs.oxfordjournals.org
-
-# Journal of Competition Law & Economics
-Host jcle.oxfordjournals.org
-
-# Journal of Complex Networks
-Host comnet.oxfordjournals.org
-
-# Journal of Conflict and Security Law
-Host jcsl.oxfordjournals.org
-
-# The Journal of Deaf Studies and Deaf Education
-Host jdsde.oxfordjournals.org
-
-# Journal of Design History
-Host jdh.oxfordjournals.org
-
-# Journal of Economic Geography
-Host joeg.oxfordjournals.org
-
-# Journal of Environmental Law
-Host jel.oxfordjournals.org
-
-# Journal of European Competition Law & Practice
-Host jeclap.oxfordjournals.org
-
-# Journal of Experimental Botany
-Host jxb.oxfordjournals.org
-
-# Journal of Financial Econometrics
-Host jfec.oxfordjournals.org
-
-# Journal of Gerontology
-Host geronj.oxfordjournals.org
-
-# The Journals of Gerontology: Series A
-Host biomedgerontology.oxfordjournals.org
-
-# The Journals of Gerontology: Series B
-Host psychsocgerontology.oxfordjournals.org
-
-# Journal of Heredity
-Host jhered.oxfordjournals.org
-
-# The Journal of Hindu Studies
-Host jhs.oxfordjournals.org
-
-# Journal of Hip Preservation Surgery
-Host jhps.oxfordjournals.org
-
-# Journal of the History of Collections
-Host jhc.oxfordjournals.org
-
-# Journal of the History of Medicine and Allied Sciences
-Host jhmas.oxfordjournals.org
-
-# Journal of Human Rights Practice
-Host jhrp.oxfordjournals.org
-
-# The Journal of Infectious Diseases
-Host jid.oxfordjournals.org
-
-# Journal of Intellectual Property Law & Practice
-Host jiplp.oxfordjournals.org
-
-# Journal of the International Commission on Radiation Units and Measurements
-Host jicru.oxfordjournals.org
-
-# Journal of International Criminal Justice
-Host jicj.oxfordjournals.org
-
-# Journal of International Dispute Settlement
-Host jids.oxfordjournals.org
-
-# Journal of International Economic Law
-Host jiel.oxfordjournals.org
-
-# Journal of Islamic Studies
-Host jis.oxfordjournals.org
-
-# Journal of Law and the Biosciences
-Host jlb.oxfordjournals.org
-
-# The Journal of Law, Economics, and Organization
-Host jleo.oxfordjournals.org
-
-# Journal of Legal Analysis
-Host jla.oxfordjournals.org
-
-# Journal of Logic and Computation
-Host logcom.oxfordjournals.org
-
-# Journal of the London Mathematical Society
-Host jlms.oxfordjournals.org
-
-# Journal of Medical and Veterinary Mycology
-Host jmvm.oxfordjournals.org
-
-# The Journal of Medicine and Philosophy: A Forum for Bioethics and Philosophy of Medicine
-Host jmp.oxfordjournals.org
-
-# Journal of Molecular Cell Biology
-Host jmcb.oxfordjournals.org
-
-# Journal of Molluscan Studies
-Host mollus.oxfordjournals.org
-
-# Journal of Music Therapy
-Host jmt.oxfordjournals.org
-
-# JNCI: Journal of the National Cancer Institute
-Host jnci.oxfordjournals.org
-
-# JNCI Monographs
-Host jncimono.oxfordjournals.org
-
-# Journal of the Pediatric Infectious Diseases Society
-Host jpids.oxfordjournals.org
-
-# Journal of Pediatric Psychology
-Host jpepsy.oxfordjournals.org
-
-# Journal of Petrology
-Host petrology.oxfordjournals.org
-
-# Journal of Plankton Research
-Host plankt.oxfordjournals.org
-
-# Journal of Plant Ecology
-Host jpe.oxfordjournals.org
-
-# Journal of Professions and Organization
-Host jpo.oxfordjournals.org
-
-# Journal of Public Administration Research and Theory
-Host jpart.oxfordjournals.org
-
-# Journal of Public Health
-Host jpubhealth.oxfordjournals.org
-
-# Journal of Radiation Research
-Host jrr.oxfordjournals.org
-
-# Journal of Refugee Studies
-Host jrs.oxfordjournals.org
-
-# Journal of Semantics
-Host jos.oxfordjournals.org
-
-# Journal of Semitic Studies
-Host jss.oxfordjournals.org
-
-# Journal of Social History
-Host jsh.oxfordjournals.org
-
-# Journal of Surgical Case Reports
-Host jscr.oxfordjournals.org
-
-# Journal of Survey Statistics and Methodology
-Host jssam.oxfordjournals.org
-
-# The Journal of Theological Studies
-Host jts.oxfordjournals.org
-
-# Journal of Topology
-Host jtopol.oxfordjournals.org
-
-# Journal of Tropical Pediatrics
-Host tropej.oxfordjournals.org
-
-# The Journal of World Energy Law & Business
-Host jwelb.oxfordjournals.org
-
-# Law, Probability and Risk
-Host lpr.oxfordjournals.org
-
-# The Leo Baeck Institute Yearbook
-Host leobaeck.oxfordjournals.org
-
-# The Library
-Host library.oxfordjournals.org
-
 # Liebert moved to common_stanza
 
-# Literary Imagination
-Host litimag.oxfordjournals.org
-
-# Literary and Linguistic Computing
-Host llc.oxfordjournals.org
-
-# Literature and Theology
-Host litthe.oxfordjournals.org
-
-# Logic Journal of the IGPL
-Host jigpal.oxfordjournals.org
-
-# London Review of International Law
-Host lril.oxfordjournals.org
-
-# Mathematical Medicine and Biology: A Journal of the IMA
-Host imammb.oxfordjournals.org
-
-# Medical Law Review
-Host medlaw.oxfordjournals.org
-
-# Medical Mycology
-Host mmy.oxfordjournals.org
-
-# MELUS: Multi-Ethnic Literature of the United States
-Host melus.oxfordjournals.org
-
-# MHR: Basic science of reproductive medicine
-Host molehr.oxfordjournals.org
-
-# Microscopy
-Host jmicro.oxfordjournals.org
-
-# Migration Studies
-Host migration.oxfordjournals.org
-
-# Mind
-Host mind.oxfordjournals.org
-
-# Modern Judaism - A Journal of Jewish Ideas and Experience
-Host mj.oxfordjournals.org
-
-# Molecular Biology and Evolution
-Host mbe.oxfordjournals.org
-
-# Molecular Plant
-Host mplant.oxfordjournals.org
-
-# Monthly Notices of the Royal Astronomical Society
-Host mnras.oxfordjournals.org
-
-# Monthly Notices of the Royal Astronomical Society: Letters
-Host mnrasl.oxfordjournals.org
-
-# Multimedia Manual of Cardio-Thoracic Surgery
-Host mmcts.oxfordjournals.org
-
-# Music and Letters
-Host ml.oxfordjournals.org
-
-# Music Theory Spectrum
-Host mts.oxfordjournals.org
-
-# Music Therapy
-Host musictherapy.oxfordjournals.org
-
-# Music Therapy Perspectives
-Host mtp.oxfordjournals.org
-
-# The Musical Quarterly
-Host mq.oxfordjournals.org
-
-# Mutagenesis
-Host mutage.oxfordjournals.org
 
 # Updated per ralight 2023-01-06
 T National Council of Teachers of Mathematics (OCLC IncludeFile updated 20230103)
@@ -1222,388 +154,10 @@ HJ pubs.nctm.org
 HJ www.nctm.org
 DJ nctm.org
 
-# National Science Review
-Host nsr.oxfordjournals.org
-
-# Nephrology Dialysis Transplantation
-Host ndt.oxfordjournals.org
-
-# Neuro-Oncology
-Host neuro-oncology.oxfordjournals.org
-
-# Neuro-Oncology Practice
-Host nop.oxfordjournals.org
-
-# Nicotine and Tobacco Research
-Host ntr.oxfordjournals.org
-
-# Notes and Queries
-Host nq.oxfordjournals.org
-
-# Nucleic Acids Research
-Host nar.oxfordjournals.org
-
-# Nucleic Acids Symposium Series
-Host nass.oxfordjournals.org
-
-# OAH Magazine of History
-Host maghis.oxfordjournals.org
-
-# Occupational Medicine
-Host occmed.oxfordjournals.org
-
-# Open Forum Infectious Diseases
-Host ofid.oxfordjournals.org
-
-# The Opera Quarterly
-Host oq.oxfordjournals.org
-
-# The Oral History Review
-Host ohr.oxfordjournals.org
-
-# Oxford Art Journal
-Host oaj.oxfordjournals.org
-
-# Oxford Economic Papers
-Host oep.oxfordjournals.org
-
-# Oxford Journal of Law and Religion
-Host ojlr.oxfordjournals.org
-
-# Oxford Journal of Legal Studies
-Host ojls.oxfordjournals.org
-
-Title Oxford Journals (new platform Fall 2016)
-URL https://academic.oup.com
-DJ oup.com
-
-# Oxford Medical Case Reports
-Host omcr.oxfordjournals.org
-
-# Oxford Review of Economic Policy
-Host oxrep.oxfordjournals.org
-
 # PubMed moved to common stanza
-
 # Scientific American moved to common stanza: scientific-american.txt
-
-Title University Press Scholarship Online (updated 20200710)
-URL https://www.universitypressscholarship.com/
-HJ britishacademy.universitypressscholarship.com
-HJ cairo.universitypressscholarship.com
-HJ california.universitypressscholarship.com
-HJ chicago.universitypressscholarship.com
-HJ columbia.universitypressscholarship.com
-HJ cornell.universitypressscholarship.com
-HJ edinburgh.universitypressscholarship.com
-HJ florida.universitypressscholarship.com
-HJ fordham.universitypressscholarship.com
-HJ hawaii.universitypressscholarship.com
-HJ hongkong.universitypressscholarship.com
-HJ illinois.universitypressscholarship.com
-HJ kentucky.universitypressscholarship.com
-HJ liverpool.universitypressscholarship.com
-HJ manchester.universitypressscholarship.com
-HJ minnesota.universitypressscholarship.com
-HJ mississippi.universitypressscholarship.com
-HJ mitpress.universitypressscholarship.com
-HJ northcarolina.universitypressscholarship.com
-HJ nyu.universitypressscholarship.com
-HJ oxford.universitypressscholarship.com
-HJ policypress.universitypressscholarship.com
-HJ princeton.universitypressscholarship.com
-HJ stanford.universitypressscholarship.com
-HJ universitypressscholarship.com
-HJ yale.universitypressscholarship.com
-HJ www.britishacademy.universitypressscholarship.com
-HJ www.cairo.universitypressscholarship.com
-HJ www.california.universitypressscholarship.com
-HJ www.chicago.universitypressscholarship.com
-HJ www.columbia.universitypressscholarship.com
-HJ www.cornell.universitypressscholarship.com
-HJ www.edinburgh.universitypressscholarship.com
-HJ www.florida.universitypressscholarship.com
-HJ www.fordham.universitypressscholarship.com
-HJ www.hawaii.universitypressscholarship.com
-HJ www.hongkong.universitypressscholarship.com
-HJ www.illinois.universitypressscholarship.com
-HJ www.kentucky.universitypressscholarship.com
-HJ www.liverpool.universitypressscholarship.com
-HJ www.manchester.universitypressscholarship.com
-HJ www.minnesota.universitypressscholarship.com
-HJ www.mississippi.universitypressscholarship.com
-HJ www.mitpress.universitypressscholarship.com
-HJ www.northcarolina.universitypressscholarship.com
-HJ www.nyu.universitypressscholarship.com
-HJ www.oxford.universitypressscholarship.com
-HJ www.policypress.universitypressscholarship.com
-HJ www.princeton.universitypressscholarship.com
-HJ www.stanford.universitypressscholarship.com
-HJ www.universitypressscholarship.com
-HJ www.yale.universitypressscholarship.com
-HJ https://britishacademy.universitypressscholarship.com
-HJ https://cairo.universitypressscholarship.com
-HJ https://california.universitypressscholarship.com
-HJ https://chicago.universitypressscholarship.com
-HJ https://columbia.universitypressscholarship.com
-HJ https://cornell.universitypressscholarship.com
-HJ https://edinburgh.universitypressscholarship.com
-HJ https://florida.universitypressscholarship.com
-HJ https://fordham.universitypressscholarship.com
-HJ https://hawaii.universitypressscholarship.com
-HJ https://hongkong.universitypressscholarship.com
-HJ https://illinois.universitypressscholarship.com
-HJ https://kentucky.universitypressscholarship.com
-HJ https://liverpool.universitypressscholarship.com
-HJ https://manchester.universitypressscholarship.com
-HJ https://minnesota.universitypressscholarship.com
-HJ https://mississippi.universitypressscholarship.com
-HJ https://mitpress.universitypressscholarship.com
-HJ https://northcarolina.universitypressscholarship.com
-HJ https://nyu.universitypressscholarship.com
-HJ https://oxford.universitypressscholarship.com
-HJ https://policypress.universitypressscholarship.com
-HJ https://princeton.universitypressscholarship.com
-HJ https://stanford.universitypressscholarship.com
-HJ https://universitypressscholarship.com
-HJ https://yale.universitypressscholarship.com
-HJ https://www.britishacademy.universitypressscholarship.com
-HJ https://www.cairo.universitypressscholarship.com
-HJ https://www.california.universitypressscholarship.com
-HJ https://www.chicago.universitypressscholarship.com
-HJ https://www.columbia.universitypressscholarship.com
-HJ https://www.cornell.universitypressscholarship.com
-HJ https://www.edinburgh.universitypressscholarship.com
-HJ https://www.florida.universitypressscholarship.com
-HJ https://www.fordham.universitypressscholarship.com
-HJ https://www.hawaii.universitypressscholarship.com
-HJ https://www.hongkong.universitypressscholarship.com
-HJ https://www.illinois.universitypressscholarship.com
-HJ https://www.kentucky.universitypressscholarship.com
-HJ https://www.liverpool.universitypressscholarship.com
-HJ https://www.manchester.universitypressscholarship.com
-HJ https://www.minnesota.universitypressscholarship.com
-HJ https://www.mississippi.universitypressscholarship.com
-HJ https://www.mitpress.universitypressscholarship.com
-HJ https://www.northcarolina.universitypressscholarship.com
-HJ https://www.nyu.universitypressscholarship.com
-HJ https://www.oxford.universitypressscholarship.com
-HJ https://www.policypress.universitypressscholarship.com
-HJ https://www.princeton.universitypressscholarship.com
-HJ https://www.stanford.universitypressscholarship.com
-HJ https://www.universitypressscholarship.com
-HJ https://www.yale.universitypressscholarship.com
-HJ http://www.oxfordscholarship.com
-HJ https://www.oxfordscholarship.com
-DJ oxfordscholarship.com
-DJ universitypressscholarship.com
-
-# Parliamentary Affairs
-Host pa.oxfordjournals.org
-
-# Past & Present
-Host past.oxfordjournals.org
-
-# Philosophia Mathematica
-Host philmat.oxfordjournals.org
-
-# The Philosophical Quarterly
-Host pq.oxfordjournals.org
-
-# Plant and Cell Physiology
-Host pcp.oxfordjournals.org
-
-# Policing: A Journal of Policy and Practice
-Host policing.oxfordjournals.org
-
-# Political Analysis
-Host pan.oxfordjournals.org
-
-# Poultry Science
-Host ps.oxfordjournals.org
-
-# Proceedings of the London Mathematical Society
-Host plms.oxfordjournals.org
-
-# Progress of Theoretical Physics
-Host ptp.oxfordjournals.org
-
-# Progress of Theoretical Physics Supplement
-Host ptps.oxfordjournals.org
-
-# Progress of Theoretical and Experimental Physics
-Host ptep.oxfordjournals.org
-
-# Protein Engineering, Design and Selection
-Host peds.oxfordjournals.org
-
-# Public Health Ethics
-Host phe.oxfordjournals.org
-
-# Public Opinion Quarterly
-Host poq.oxfordjournals.org
-
-# Public Policy & Aging Report
-Host ppar.oxfordjournals.org
-
-# Publications of the Astronomical Society of Japan
-Host pasj.oxfordjournals.org
-
-# Publius: The Journal of Federalism
-Host publius.oxfordjournals.org
-
-# QJM: An International Journal of Medicine
-Host qjmed.oxfordjournals.org
-
-# The Quarterly Journal of Economics
-Host qje.oxfordjournals.org
-
-# The Quarterly Journal of Mathematics
-Host qjmath.oxfordjournals.org
-
-# The Quarterly Journal of Mechanics and Applied Mathematics
-Host qjmam.oxfordjournals.org
-
-# Radiation Protection Dosimetry
-Host rpd.oxfordjournals.org
-
-# Refugee Survey Quarterly
-Host rsq.oxfordjournals.org
-
-# Reports of Patent, Design and Trade Mark Cases
-Host rpc.oxfordjournals.org
-
-# Research Evaluation
-Host rev.oxfordjournals.org
-
-# The Review of Asset Pricing Studies
-Host raps.oxfordjournals.org
-
-# The Review of Corporate Finance Studies
-Host rcfs.oxfordjournals.org
-
-# The Review of Economic Studies
-Host restud.oxfordjournals.org
-
-# The Review of English Studies
-Host res.oxfordjournals.org
-
-# Review of Environmental Economics and Policy
-Host reep.oxfordjournals.org
-
-# Review of Finance
-Host rof.oxfordjournals.org
-
-# The Review of Financial Studies
-Host rfs.oxfordjournals.org
-
-# Rheumatology
-Host rheumatology.oxfordjournals.org
-
-# Sabouraudia
-Host sabouraudia.oxfordjournals.org
-
-# Schizophrenia Bulletin
-Host schizophreniabulletin.oxfordjournals.org
-
-# Science and Public Policy
-Host spp.oxfordjournals.org
-
-# Screen
-Host screen.oxfordjournals.org
-
+# University Press Scholarship Online moved to common stanza: oxford-academic.txt
 # Skillport8i moved to common stanza: skillport8i.txt
-
-# Social Cognitive and Affective Neuroscience
-Host scan.oxfordjournals.org
-
-# Social Forces
-Host sf.oxfordjournals.org
-
-# Social History of Medicine
-Host shm.oxfordjournals.org
-
-# Social Politics: International Studies in Gender, State & Society
-Host sp.oxfordjournals.org
-
-# Social Science Japan Journal
-Host ssjj.oxfordjournals.org
-
-# Social Work
-Host sw.oxfordjournals.org
-
-# Social Work Research
-Host swr.oxfordjournals.org
-
-# Social Work Research and Abstracts
-Host swra.oxfordjournals.org
-
-# Socio-Economic Review
-Host ser.oxfordjournals.org
-
-# Sociology of Religion
-Host socrel.oxfordjournals.org
-
-# Statute Law Review
-Host slr.oxfordjournals.org
-
-# Systematic Biology
-Host sysbio.oxfordjournals.org
-
-# Teaching Mathematics and its Applications: An International Journal of the IMA
-Host teamat.oxfordjournals.org
-
-# Toxicological Sciences
-Host toxsci.oxfordjournals.org
-
-# Transactions of the London Mathematical Society
-Host tlms.oxfordjournals.org
-
-# Transactions of The Royal Society of Tropical Medicine and Hygiene
-Host trstmh.oxfordjournals.org
-
-# Tree Physiology
-Host treephys.oxfordjournals.org
-
-# Trusts & Trustees
-Host tandt.oxfordjournals.org
-
-# Twentieth Century British History
-Host tcbh.oxfordjournals.org
-
-# Uniform Law Review
-Host ulr.oxfordjournals.org
-
-# The World Bank Economic Review
-Host wber.oxfordjournals.org
-
-# The World Bank Research Observer
-Host wbro.oxfordjournals.org
-
-# Yearbook of European Law
-Host yel.oxfordjournals.org
-
-# Yearbook of International Environmental Law
-Host yielaw.oxfordjournals.org
-
-# The Year's Work in Critical and Cultural Theory
-Host ywcct.oxfordjournals.org
-
-# The Year's Work in English Studies
-Host ywes.oxfordjournals.org
-
-# URL changes, redirects, and non-journals sites
-Host cme.oxfordjournals.org
-Host escjnls.oxfordjournals.org
-Host philosophy.oxfordjournals.org
-Host www.amrx.org
-Host www.cardiovascres.org
-Host www.eurheartj.org
-Host www.eurheartjsupp.org
-Host www.imrn.org
-Host www.imrs.org
-Host www.thebsps.org
-
 # Title Oxford Reference moved to common stanza
 
 Title	Papers of George Washington Digital Edition
@@ -1627,20 +181,10 @@ DJ physiology.org
 HJ http://physrev.physiology.org
 HJ http://www.the-aps.org
 
-Title	Plant Cell
-URL http://www.plantcell.org/
-HJ www.plantcell.org
-DJ plantcell.org
-DJ plant.org
-
-Title	Plant Physiology
-URL http://www.plantphysiol.org/
-HJ www.plantphysiol.org
-DJ plantphysiol.org
-DJ plant.org
 
 # Project Muse moved to common stanza
 
+# Last reviewed by ralight on 2026-07-31
 # Updated per ralight 2023-10-06
 Title Ebook Central SSO
 Option ebraryUnencodedTokens
@@ -1654,10 +198,6 @@ NeverProxy acs.ebookcentral.proquest.com
 
 # PsychiatryOnline (American Journal of Psychiatry) moved to common stanza: psychiatryonline.txt
 
-Title	PsycInfo
-URL http://www.csa2.com/htbin/dbrng.cgi?username=iunw&access=iunw53&cat=psycinfo
-HJ	www.csa.com
-DJ	csa.com
 
 Title PsychoTherapy Streaming
 URL https://www.psychotherapy.net/stream/iun
@@ -1668,83 +208,37 @@ DJ psychotherapy.net
 NeverProxy player.vimeo.com
 NeverProxy https://cdnapisec.kaltura.com
 
-Title	PsycTHERAPY
-URL http://psyctherapy.apa.org
-DJ apa.org
-DJ psycinfo.com
-HJ psyctherapy.apa.org
+# PsycTHERAPY moved to common stanza: apa_psycnet.txt
 
-Option DomainCookieOnly
-Title Researcher ID 
-URL http://www.researcherid.com 
-DJ researcherid.com
-Option Cookie
-
-Title   Resources for College Libraries
-URL  http://www.rclweb.net
-DJ rclweb.net
-
-Title	Reuters Business Insight
-URL http://www.ReutersBusinessInsight.com/autologin.asp
-DJ ReutersBusinessInsight.com
-
-T Rheumatologist
-U http://www.the-rheumatologist.org/view/index.html
-H www.the-rheumatologist.org
-
-Title	RSNA Journals
-URL http://pubs.rsna.org/
-DJ pubs.rsna.org
-
-T Sanborn Maps
-U http://sanborn.umi.com
-DJ sanborn.umi.com
+# Updated per ralight 2026-07-31
+# Stanza previously called RSNA Journals
+Title Radiological Society of North America (updated 20211029)
+URL http://pubs.rsna.org
+HJ https://pubs.rsna.org
+HJ intl-radiology.rsna.org
+HJ pubs.rsna.org
+HJ radiographics.rsna.org
+HJ radiographics.rsnajnls.org
+HJ radiology.rsna.org
+HJ radiology.rsnajnls.org
+HJ rsna.org
+HJ rsnajnls.org
+HJ www.rsna.org
+HJ www.rsnajnls.org
+HJ www2.rsna.org
+DJ rsna.org
+DJ rsnajnls.org
 
 # AIPP Publishing Platform (formerly Scitation) moved to common stanza
+# Scitation moved to common stanza: aip-publishing.txt
 
-# SciVerse Hub
-Title SciVerse Hub
-URL http://www.hub.sciverse.com
-DJ sciverse.com
-DJ nextbio.com
-HJ sciverse-shindig.elsevier.com
-HJ acw.elsevier.com
-Find 'http://www.hub.sciverse.com/NextBio
-Replace 'http://^Awww.hub.sciverse.com/NextBio
-Find targetURL=http://
-Replace targetURL=http://^A
-Find %22%3A%22http%3A%2F%2Fsciverse-shindig.elsevier.com%2F
-Replace %22%3A%22http%3A%2F%2F^psciverse-shindig.elsevier.com^%2F
-Find gsUrl%22%3A%22http%3A%2F%2Fwww.hub.sciverse.com%2F
-Replace gsUrl%22%3A%22http%3A%2F%2F^pwww.hub.sciverse.com^%2F
-
-
-Title Scitation
-URL http://scitation.aip.org
-HJ scitation.aip.org
-HJ journals.aip.org
-DJ scitation.aip.org
-DJ journals.aip.org
-DJ *.aip.org
-
-
+# Updated per ralight 2026-07-31
 Title Sculpture Magazine
-URL http://www.sculpture.org/documents/sm-arch.shtml
+URL https://sculpture.org/page/sculpturemagazine
+HJ http://www.sculpture.org
+HJ https://www.sculpture.org
 HJ www.sculpture.org
 DJ sculpture.org
-
-#Title	SFX
-#URL http://libsfx.iu.edu
-#HJ libsfx.iu.edu
-#DJ libsfx.iu.edu
-
-#Title	Social Services Abstracts
-#URL http://www.csa.com/htbin/dbrng.cgi?username=iunw&access=iunw53&cat=socserv
-
-#Title	Sociological Abstracts
-#URL http://www.csa.com/htbin/dbrng.cgi?username=iunw&access=iunw53&cat=socioabs
-#HJ	www.csa.com
-#DJ	csa.com
 
 # Updated per ralight 2022-07-07
 Option DomainCookieOnly
@@ -1765,35 +259,11 @@ U http://mi.compustat.com
 D standardandpoors.com
 D compustat.com
 
-#Title	Stat USA
-#URL http://www.stat-usa.gov/
-#DJ stat-usa.gov
-
-#T  STAT!REF
-#U  http://online.statref.com/
-#D  statref.com
-#DJ statref.com
-#HJ statref.com
-
 # Swank Digital Campus moved to common stanza: swank-digital-campus.txt
-
 # Taylor & Francis moved to common stanza: taylor-francis-online.txt
-
 # Teaching Channel moved to common stanza: teaching-channel.txt
-
-#Title The Early Republic
-#URL http://earlyrepublic.press.jhu.edu/ 
-#HJ earlyrepublic.press.jhu.edu
-#DJ earlyrepublic.press.jhu.edu
-
 # Ulrichsweb moved to common stanza: ulrichsweb.txt
 
-#Title	Vault Career Insider
-#URL http://careerinsider.vault.com/wps/portal/careerinsider?parrefer=717
-#HJ http://careerinsider.vault.com/
-#HJ http://www.vault.com/
-#DJ careerinsider.vault.com
-#DJ vault.com
 
 # Updated per RAL 2020-09-16
 Title University of California Press
@@ -1887,57 +357,15 @@ HJ www.ucpressjournals.com
 DJ ucpress.edu
 DJ ucpressjournals.com
 
-#Title University of California Press Journals
-#URL https://www.oclc.org/support/services/ezproxy/documentation/db/universityofcaliforniapress.en.html
-#Host https://www.oclc.org
-
-#Title	University of California Press Journals - American Biology Teacher
-#URL http://caliber.ucpress.net/loi/abt/
-#DJ caliber.ucpress.net
-
 # University of Chicago Press Journals moved to common stanza: university-chicago-press-journals.txt
-
 # UpToDate moved to common stanza
-
-Title	Wiley Interscience
-URL http://www3.interscience.wiley.com
-DJ interscience.wiley.com
-DJ wiley.com
-
-#Title Worldbank
-#U https://openknowledge.worldbank.org
-#D worldbank.org
-
-#Title	World Marketing Forecasts 
-#URL http://www.euromonitor.com/wmf/
-#DJ euromonitor.com
 
 # OCLC FirstSearch moved to common_stanza
 
-Title Frontier Life
-URL http://www.frontierlife.amdigital.co.uk
 
-Title Foreign Office Files for the Middle East
-URL http://www.archivesdirect.amdigital.co.ukFO_MiddleEast
-
-Title Eighteenth Century Drama
-URL http://www.eighteenthcenturydrama.amdigital.co.uk
-
-Title World's Fairs
-URL http://www.worldsfairs.amdigital.co.uk
-
-Title Shakespeare in Performance
-URL http://www.shakespeareinperformance.amdigital.co.uk
-
-Title History of Mass Tourism
-URL http://www.masstourism.amdigital.co.uk
-
-Title Church Missionary Society Periodicals Module II
-URL http://www.churchmissionarysociety.amdigital.co.uk
-
-Title Colonial America Module II
-URL http://www.colonialamerica.amdigital.co.uk
-
+Title SerialsSolutions E-Journal Portal
+NeverProxy ps6ee4gk2t.search.serialssolutions.com
+NeverProxy https://ps6ee4gk2t.search.serialssolutions.com
 
 #Serials Solutions Fix 4-13-15 PJM
 
@@ -1945,10 +373,6 @@ T Serials Solutions
 U http://ps6ee4gk2t.search.serialssolutions.com
 U http:// ps6ee4gk2t.cs.serialssolutions.com
 DJ serialssolutions.com
-
-Title Victorian Popular Culture
-URL http://www.victorianpopularculture.amdigital.co.uk
-Domain amdigital.co.uk
 
 # Modern Language Association moved to common stanza per ralight 2025-08-13
 
@@ -1975,49 +399,6 @@ URL https://dailyredhawk.iun.edu/viewforum.php?f=6
 H dailyredhawk.iun.edu
 
 #  Wiley Digital Archives moved to common stanza
-
-## **************************** OCLC Services *************************************************
-## Some OCLC services have been pre-configured with default settings below. remove the '#' from each line 
-## associated with the desired service, and add additional options as desired 
-
-
-## ---------------------------- Camio and Archive Grid ---------------------------------------------
-
-# T ArchiveGrid
-# U http://archivegrid.org
-# DJ archivegrid.org
-
-# T CAMIO
-# U http://camio.oclc.org
-# DJ camio.oclc.org
- 
-## --------------------------- NetLibrary ---------------------------------------------------------
-## Netlibrary can be configured for Single Sign on (SSO) or standard IP recognition access.
-## Edit the appropriate stanza for your isntitution. See http://www.oclc.org/support/documentation/ezproxy/db/netlibrary.htm/ for details
-
-
-## -- Standard IP recognition --
-# Title NetLibrary
-# URL http://www.netlibrary.com/
-# Domain netlibrary.com
-
-## -- Single Sign On (SSO) --
-
-# Title NetLibrary
-# URL http://www.netlibrary.com/
-# NetLibrary [libraryid]
- 
-## NOTE : Replace [libraryid] in the line above with the appropriate ID
-
-## ************************ USER DEFINED DATABASES *************************************************
-
-## The section below is for all other user-defined databases  
-## Please see: http://www.oclc.org/support/documentation/ezproxy/db/default.htm for configuration
-## information for common and supported stanzas
-
-## You may also want to join the EZproxy listserv
-## To subscribe see: http://www.oclc.org/support/documentation/ezproxy/list.htm 
-
 
 # Newsbank/Readex Databases moved to common_stanza
 
