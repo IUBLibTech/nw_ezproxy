@@ -32,62 +32,25 @@ HJ videos.countrywatch.com
 HJ countrywatch.com
 DJ countrywatch.com
 
+# Dictionary of Old English moved to common stanza: doe-web-corpus.txt
+# Digital Theatre Plus moved to common stanza: digital-theatre-plus.txt
 # DOI system moved to common stanza
+# Ent Today moved to common stanza
 
-Title Dictionary of Old English
-URL http://tapor.library.utoronto.ca/
-HJ tapor.library.utoronto.ca
-DJ tapor.library.utoronto.ca
-# Host lines added to account for URL change in progress per ralight 2024-07-23
-HJ https://dictionary.doe.utoronto.ca
-HJ dictionary.doe.utoronto.ca
+# Updated per ralight 2026-08-06
+T Ex Libris 360 (previously called Serials Solutions)
+NeverProxy ps6ee4gk2t.search.serialssolutions.com
+NeverProxy https://ps6ee4gk2t.search.serialssolutions.com
+NeverProxy http://ps6ee4gk2t.search.serialssolutions.com
+NeverProxy http://lm3uq2cn8k.search.serialssolutions.com
+NeverProxy https://lm3uq2cn8k.search.serialssolutions.com
 
+# Foundation Directory Online moved to common stanza: candid.txt
+# Fulcrum moved to common stanza
+# LibLynx moved to common stanza: liblynx.txt
 
 # TeachingBooks moved to common stanza
 
-
-Title LibLynx
-URL https://connect.liblynx.com
-HJ connect.liblynx.com
-DJ connect.liblynx.com
-
-
-
-AnonymousURL +https://media.digitaltheatreplus.com/drm*
-AnonymousURL +https://counter.digitaltheatreplus.com/*
-AnonymousURL +https://api.digitaltheatreplus.com/*
-Title Digital Theatre Plus
-HTTPHeader -request -process Bearer
-HTTPHeader -request -process x-dt-auth-token
-URL https://edu.digitaltheatreplus.com
-Host https://media.digitaltheatreplus.com
-Host search.digitaltheatreplus.com
-Host analytics.digitaltheatreplus.com
-Host https://counter.digitaltheatreplus.com
-Host api.digitaltheatreplus.com
-Host images.ctfassets.net
-Host assets.ctfassets.net
-Host d10eeigq6mvk6z.cloudfront.net
-Host lic.drmtoday.com
-Host cdn.contentful.com
-HJ media.digitaltheatreplus.com
-HJ analytics.digitaltheatreplus.com
-HJ edu.digitaltheatreplus.com
-HJ counter.digitaltheatreplus.com
-HJ api.digitaltheatreplus.com
-DJ digitaltheatreplus.com
-AnonymousURL -*
-
-# Ent Today moved to common stanza
-# Foundation Directory Online moved to common stanza: candid.txt
-# Fulcrum moved to common stanza
-
-Title	Geological Society of America Bulletin
-URL http://gsabulletin.gsapubs.org
-HJ www.geosociety.org
-DJ gsapubs.org
-DJ geosociety.org
-DJ gsajournals.org
 
 
 T Get It Now
@@ -127,7 +90,6 @@ D kanopy.com
 
 
 # Learning Express Library 3.0 - PrepStep for Colleges moved to common stanza
-
 # MathSciNet moved to common_stanzas
 # MIT Press Journals moved to common stanza: mitpressdirect.txt
 
@@ -153,6 +115,15 @@ HJ nctm.org
 HJ pubs.nctm.org
 HJ www.nctm.org
 DJ nctm.org
+
+# Updated per ralight 2026-08-06
+Title PolicyMap (updated 20241001)
+URL https://www.policymap.com
+HJ https://northwest-iu.policymap.com
+HJ northwest-iu.policymap.com
+HJ https://www.policymap.com
+HJ www.policymap.com
+DJ policymap.com
 
 # PubMed moved to common stanza
 # Scientific American moved to common stanza: scientific-american.txt
@@ -252,12 +223,6 @@ HJ springerpub.com
 HJ www.springerpub.com
 DJ springerpub.com
 Option Cookie
-
-T Standard & Poor's NetAdvantage
-U http://www.netadvantage.standardandpoors.com
-U http://mi.compustat.com
-D standardandpoors.com
-D compustat.com
 
 # Swank Digital Campus moved to common stanza: swank-digital-campus.txt
 # Taylor & Francis moved to common stanza: taylor-francis-online.txt
@@ -359,20 +324,8 @@ DJ ucpressjournals.com
 
 # University of Chicago Press Journals moved to common stanza: university-chicago-press-journals.txt
 # UpToDate moved to common stanza
-
 # OCLC FirstSearch moved to common_stanza
 
-
-Title SerialsSolutions E-Journal Portal
-NeverProxy ps6ee4gk2t.search.serialssolutions.com
-NeverProxy https://ps6ee4gk2t.search.serialssolutions.com
-
-#Serials Solutions Fix 4-13-15 PJM
-
-T Serials Solutions
-U http://ps6ee4gk2t.search.serialssolutions.com
-U http:// ps6ee4gk2t.cs.serialssolutions.com
-DJ serialssolutions.com
 
 # Modern Language Association moved to common stanza per ralight 2025-08-13
 
@@ -385,18 +338,8 @@ HJ libraries.mangolanguages.com
 DJ mangolanguages.com
 
 
-Title Geological Society of America Bulletin
-URL https://pubs.geoscienceworld.org/
-HJ gsabulletin.gsapubs.org
-HJ www.geosociety.org
-DJ gsapubs.org
-DJ geosociety.org
-DJ gsajournals.org
-DJ geoscienceworld.org
+# Geological Society of America Bulletin moved to common stanza: geoscienceworld.txt
 
-Title Daily Redhawk
-URL https://dailyredhawk.iun.edu/viewforum.php?f=6
-H dailyredhawk.iun.edu
 
 #  Wiley Digital Archives moved to common stanza
 
@@ -407,63 +350,3 @@ URL https://www.edweek.org/
 HJ www.edweek.org
 DJ edweek.org
 DJ pelcro.com
-
-Title University of Toronto Press Journals (updated 20241209)
-URL http://www.utpress.utoronto.ca
-HJ champlainsociety.utjournals.press
-HJ champlainsociety.utpjournals.press
-HJ corpus.doe.utoronto.ca
-HJ https://champlainsociety.utpjournals.press
-HJ https://corpus.doe.utoronto.ca
-HJ https://dictionary.doe.utoronto.ca
-HJ https://jmvfh.utpjournals.press
-HJ https://jps.library.utoronto.ca
-HJ https://jvme.utpjournals.press
-HJ https://moderndrama.utpjournals.press
-HJ https://tapor.library.utoronto.ca
-HJ https://uoftbookstore.com
-HJ https://utorontopress.com
-HJ https://utpjournals.press
-HJ https://utppublishing.com
-HJ https://www.utpjournals.press
-HJ https://www.utpress.utoronto.ca
-HJ dictionary.doe.utoronto.ca
-HJ jmvfh.utjournals.press
-HJ jmvfh.utpjournals.press
-HJ jps.library.utoronto.ca
-HJ jvme.utjournals.press
-HJ jvme.utpjournals.press
-HJ moderndrama.utpjournals.press
-HJ tapor.library.utoronto.ca
-HJ uoftbookstore.com
-HJ utjournals.press
-HJ utorontopress.com
-HJ utpblog.utpress.utoronto.ca
-HJ utpguidancecentre.com
-HJ utpjournals.com
-HJ utpjournals.press
-HJ utppublishing.com
-HJ utpress.utoronto.ca
-HJ utpshift.com
-HJ www.utjournals.press
-HJ www.utpguidancecentre.com
-HJ www.utpjournals.com
-HJ www.utpjournals.press
-HJ www.utppublishing.com
-HJ www.utpress.utoronto.ca
-HJ www.utpshift.com
-DJ uoftbookstore.com
-DJ utjournals.press
-DJ utpguidancecentre.com
-DJ utpjournals.com
-DJ utpjournals.press
-DJ utppublishing.com
-DJ utpress.utoronto.ca
-DJ utpshift.com
-
-Title PolicyMap
-URL http://northwest-iu.policymap.com
-HJ northwest-iu.policymap.com
-HJ https://www.policymap.com
-HJ www.policymap.com
-DJ policymap.com
