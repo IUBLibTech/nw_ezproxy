@@ -50,16 +50,6 @@ NeverProxy https://lm3uq2cn8k.search.serialssolutions.com
 # LibLynx moved to common stanza: liblynx.txt
 
 # TeachingBooks moved to common stanza
-
-
-
-T Get It Now
-U https://getitnow.copyright.com
-H www.copyright.com
-H getitnow.copyright.com
-DJ copyright.com
-DJ getitnow.copyright.com
-
 # Google Scholar moved to common stanza
 # Harper's Weekly moved to common stanza: alexanderstreet.com
 # IngentaConnect moved to common stanza
@@ -94,27 +84,18 @@ D kanopy.com
 # MIT Press Journals moved to common stanza: mitpressdirect.txt
 
 
-# Updated per RAL 2020-09-01
-Title Old City Publishing
-URL https://www.oldcitypublishing.com
-H http://www.oldcitypublishing.com
-H www.oldcitypublishing.com
-D oldcitypublishing.com
+# Updated per ralight 2026-08-18
+# Subscribed title, Woman's Art Journal, is cancelled with end of 2026, no PCA. Remove stanza in January 2027
+Title Old City Publishing (updated 20210401)
+URL https://www.oldcitypublishing.com/
+HJ https://www.oldcitypublishing.com
+HJ https://oldcitypublishing.com
+HJ www.oldcitypublishing.com
+DJ oldcitypublishing.com
 
 # Oxford Academic moved to common stanza
 # Liebert moved to common_stanza
-
-
-# Updated per ralight 2023-01-06
-T National Council of Teachers of Mathematics (OCLC IncludeFile updated 20230103)
-HTTPHeader -request -process X-Requested-With
-U https://www.nctm.org/
-HJ https://nctm.org
-HJ https://pubs.nctm.org
-HJ nctm.org
-HJ pubs.nctm.org
-HJ www.nctm.org
-DJ nctm.org
+# National Council of Teachers of Mathematics moved to common stanza: nctm.txt
 
 # Updated per ralight 2026-08-06
 Title PolicyMap (updated 20241001)
@@ -131,12 +112,8 @@ DJ policymap.com
 # Skillport8i moved to common stanza: skillport8i.txt
 # Title Oxford Reference moved to common stanza
 
-Title	Papers of George Washington Digital Edition
-URL http://rotunda.upress.virginia.edu/pgwde/
-DJ  upress.virginia.edu
-DJ  rotunda.upress.virginia.edu
-HJ  rotunda.upress.virginia.edu
-HJ  upress.virginia.edu
+# Papers of George Washington Digital Edition moved to common stanza: rotunda.txt
+
 
 # Updated per RAL 2020-06-26
 # Stanza previously called Physiological Reviews
