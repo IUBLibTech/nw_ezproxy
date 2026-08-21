@@ -147,15 +147,7 @@ NeverProxy acs.ebookcentral.proquest.com
 # PsychiatryOnline (American Journal of Psychiatry) moved to common stanza: psychiatryonline.txt
 
 
-Title PsychoTherapy Streaming
-URL https://www.psychotherapy.net/stream/iun
-HJ https://www.psychotherapy.net
-HJ www.psychotherapy.net
-H https://p3.3playmedia.com
-DJ psychotherapy.net
-NeverProxy player.vimeo.com
-NeverProxy https://cdnapisec.kaltura.com
-
+# PsychoTherapy Streaming moved to common stanza: psychotherapy-net.txt
 # PsycTHERAPY moved to common stanza: apa_psycnet.txt
 
 # Updated per ralight 2026-07-31
@@ -180,6 +172,7 @@ DJ rsnajnls.org
 # AIPP Publishing Platform (formerly Scitation) moved to common stanza
 # Scitation moved to common stanza: aip-publishing.txt
 
+# Cancelled effective February 28, 2027. Remove stanza then. ER013 08-21-26 
 # Updated per ralight 2026-07-31
 Title Sculpture Magazine
 URL https://sculpture.org/page/sculpturemagazine
@@ -187,19 +180,6 @@ HJ http://www.sculpture.org
 HJ https://www.sculpture.org
 HJ www.sculpture.org
 DJ sculpture.org
-
-# Updated per ralight 2022-07-07
-Option DomainCookieOnly
-Title Springer Publishing Company Connect (updated 20220628)
-URL https://connect.springerpub.com
-HJ connect.springerpub.com
-HJ https://idp.sams-sigma.com
-HJ https://springerpub.com
-HJ https://www.springerpub.com
-HJ springerpub.com
-HJ www.springerpub.com
-DJ springerpub.com
-Option Cookie
 
 # Swank Digital Campus moved to common stanza: swank-digital-campus.txt
 # Taylor & Francis moved to common stanza: taylor-francis-online.txt
