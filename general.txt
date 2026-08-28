@@ -12,6 +12,7 @@
 # Adam Matthew moved to common stanza: amdigital.txt
 # American Chemical Society moved to common stanza
 # American National Biography Online moved to common stanza
+# American Physiological Society moved to common stanza: american-physiological-society.txt
 # Annual Reviews moved to common stanza: annual-reviews.txt
 # BioOne Complete moved to common stanza
 # Britannica - Consumer moved to common stanza
@@ -35,6 +36,20 @@ DJ countrywatch.com
 # Dictionary of Old English moved to common stanza: doe-web-corpus.txt
 # Digital Theatre Plus moved to common stanza: digital-theatre-plus.txt
 # DOI system moved to common stanza
+
+# Last reviewed by ralight on 2026-07-31
+# Updated per ralight 2023-10-06
+Title Ebook Central SSO
+Option ebraryUnencodedTokens
+ebrarySite -URL=https://ebookcentral.proquest.com:443 iun
+URL https://ebookcentral.proquest.com/lib/iun
+HJ https://ebookcentral.proquest.com
+HJ http://ebookcentral.proquest.com
+NeverProxy ebookcentral.proquest.com
+NeverProxy iun.ebookcentral.proquest.com
+NeverProxy acs.ebookcentral.proquest.com
+
+# Education Week moved to common stanza: education-week.txt
 # Ent Today moved to common stanza
 
 # Updated per ralight 2026-08-06
@@ -47,9 +62,7 @@ NeverProxy https://lm3uq2cn8k.search.serialssolutions.com
 
 # Foundation Directory Online moved to common stanza: candid.txt
 # Fulcrum moved to common stanza
-# LibLynx moved to common stanza: liblynx.txt
-
-# TeachingBooks moved to common stanza
+# Geological Society of America Bulletin moved to common stanza: geoscienceworld.txt
 # Google Scholar moved to common stanza
 # Harper's Weekly moved to common stanza: alexanderstreet.com
 # IngentaConnect moved to common stanza
@@ -65,7 +78,6 @@ DJ archive.irishnewsarchive.com
 
 # JAMAevidence moved to common stanza: mcgraw_hill_medical.txt
 
-
 # Added per ralight 2026-07-31
 Title Kanopy Streaming (updated 20180418)
 URL http://iun.kanopystreaming.com
@@ -78,11 +90,24 @@ URL http://iun.kanopy.com
 H https://iun.kanopy.com
 D kanopy.com
 
-
+# LibLynx moved to common stanza: liblynx.txt
+# Liebert moved to common_stanza
 # Learning Express Library 3.0 - PrepStep for Colleges moved to common stanza
+
+# Updated per ralight 2026-07-06
+Title Mango Languages (updated 20260622)
+URL https://connect.mangolanguages.com/indiana-university-northwest/start
+HJ connect.mangolanguages.com
+HJ https://libraries.mangolanguages.com
+HJ libraries.mangolanguages.com
+DJ mangolanguages.com
+
 # MathSciNet moved to common_stanzas
 # MIT Press Journals moved to common stanza: mitpressdirect.txt
-
+# Modern Language Association moved to common stanza per ralight 2025-08-13
+# National Council of Teachers of Mathematics moved to common stanza: nctm.txt
+# Newsbank/Readex Databases moved to common_stanza
+# OCLC FirstSearch moved to common_stanza
 
 # Updated per ralight 2026-08-18
 # Subscribed title, Woman's Art Journal, is cancelled with end of 2026, no PCA. Remove stanza in January 2027
@@ -94,8 +119,8 @@ HJ www.oldcitypublishing.com
 DJ oldcitypublishing.com
 
 # Oxford Academic moved to common stanza
-# Liebert moved to common_stanza
-# National Council of Teachers of Mathematics moved to common stanza: nctm.txt
+# Oxford Reference moved to common stanza
+# Papers of George Washington Digital Edition moved to common stanza: rotunda.txt
 
 # Updated per ralight 2026-08-06
 Title PolicyMap (updated 20241001)
@@ -106,49 +131,11 @@ HJ https://www.policymap.com
 HJ www.policymap.com
 DJ policymap.com
 
-# PubMed moved to common stanza
-# Scientific American moved to common stanza: scientific-american.txt
-# University Press Scholarship Online moved to common stanza: oxford-academic.txt
-# Skillport8i moved to common stanza: skillport8i.txt
-# Title Oxford Reference moved to common stanza
-
-# Papers of George Washington Digital Edition moved to common stanza: rotunda.txt
-
-
-# Updated per RAL 2020-06-26
-# Stanza previously called Physiological Reviews
-Title American Physiological Society
-URL https://journals.physiology.org
-HJ http://www.physiology.org
-HJ journals.physiology.org
-HJ https://journals.physiology.org
-HJ https://d2avczb82rh8fa.cloudfront.net
-HJ d2avczb82rh8fa.cloudfront.net
-DJ physiology.org
-# Old hosts included from previous stanza
-HJ http://physrev.physiology.org
-HJ http://www.the-aps.org
-
-
 # Project Muse moved to common stanza
-
-# Last reviewed by ralight on 2026-07-31
-# Updated per ralight 2023-10-06
-Title Ebook Central SSO
-Option ebraryUnencodedTokens
-ebrarySite -URL=https://ebookcentral.proquest.com:443 iun
-URL https://ebookcentral.proquest.com/lib/iun
-HJ https://ebookcentral.proquest.com
-HJ http://ebookcentral.proquest.com
-NeverProxy ebookcentral.proquest.com
-NeverProxy iun.ebookcentral.proquest.com
-NeverProxy acs.ebookcentral.proquest.com
-
 # PsychiatryOnline (American Journal of Psychiatry) moved to common stanza: psychiatryonline.txt
-
-
 # PsychoTherapy Streaming moved to common stanza: psychotherapy-net.txt
 # PsycTHERAPY moved to common stanza: apa_psycnet.txt
+# PubMed moved to common stanza
 
 # Updated per ralight 2026-07-31
 # Stanza previously called RSNA Journals
@@ -169,7 +156,7 @@ HJ www2.rsna.org
 DJ rsna.org
 DJ rsnajnls.org
 
-# AIPP Publishing Platform (formerly Scitation) moved to common stanza
+# Scientific American moved to common stanza: scientific-american.txt
 # Scitation moved to common stanza: aip-publishing.txt
 
 # Cancelled effective February 28, 2027. Remove stanza then. ER013 08-21-26 
@@ -181,129 +168,13 @@ HJ https://www.sculpture.org
 HJ www.sculpture.org
 DJ sculpture.org
 
+# Skillport8i moved to common stanza: skillport8i.txt
 # Swank Digital Campus moved to common stanza: swank-digital-campus.txt
 # Taylor & Francis moved to common stanza: taylor-francis-online.txt
+# TeachingBooks moved to common stanza
 # Teaching Channel moved to common stanza: teaching-channel.txt
 # Ulrichsweb moved to common stanza: ulrichsweb.txt
-
-
-# Updated per RAL 2020-09-16
-Title University of California Press
-MimeFilter application/json .* javascript
-MimeFilter application/xml .* javascript
-URL http://www.ucpress.edu/journals.php
-HJ abt.ucpress.edu
-HJ afterimage.ucpress.edu
-HJ as.ucpress.edu
-HJ bioscience.ucpress.edu
-HJ boom.ucpress.edu
-HJ ca.ucpress.edu
-HJ caa.ucpress.edu
-HJ ch.ucpress.edu
-HJ cmr.ucpress.edu
-HJ cse.ucpress.edu
-HJ dcqr.ucpress.edu
-HJ fmh.ucpress.edu
-HJ fq.ucpress.edu
-HJ fsr.ucpress.edu
-HJ gcfs.ucpress.edu
-HJ hlq.ucpress.edu
-HJ hsns.ucpress.edu
-HJ https://abt.ucpress.edu
-HJ https://afterimage.ucpress.edu
-HJ https://as.ucpress.edu
-HJ https://bioscience.ucpress.edu
-HJ https://boom.ucpress.edu
-HJ https://ca.ucpress.edu
-HJ https://caa.ucpress.edu
-HJ https://ch.ucpress.edu
-HJ https://cmr.ucpress.edu
-HJ https://cse.ucpress.edu
-HJ https://dcqr.ucpress.edu
-HJ https://fmh.ucpress.edu
-HJ https://fq.ucpress.edu
-HJ https://fsr.ucpress.edu
-HJ https://gcfs.ucpress.edu
-HJ https://hlq.ucpress.edu
-HJ https://hsns.ucpress.edu
-HJ https://irqr.ucpress.edu
-HJ https://jams.ucpress.edu
-HJ https://jm.ucpress.edu
-HJ https://jpms.ucpress.edu
-HJ https://jps.ucpress.edu
-HJ https://jsah.ucpress.edu
-HJ https://mp.ucpress.edu
-HJ https://msem.ucpress.edu
-HJ https://ncl.ucpress.edu
-HJ https://nclr.ucpress.edu
-HJ https://ncm.ucpress.edu
-HJ https://nr.ucpress.edu
-HJ https://online.ucpress.edu
-HJ https://phr.ucpress.edu
-HJ https://phr.ucpress.edu
-HJ https://rac.ucpress.edu
-HJ https://rep.ucpress.edu
-HJ https://rh.ucpress.edu
-HJ https://scq.ucpress.edu
-HJ https://sla.ucpress.edu
-HJ https://socdev.ucpress.edu
-HJ https://tph.ucpress.edu
-HJ https://vs.ucpress.edu
-HJ https://www.ucpress.edu
-HJ https://www.ucpressjournals.com
-HJ irqr.ucpress.edu
-HJ jams.ucpress.edu
-HJ jm.ucpress.edu
-HJ jpms.ucpress.edu
-HJ jps.ucpress.edu
-HJ jsah.ucpress.edu
-HJ mp.ucpress.edu
-HJ msem.ucpress.edu
-HJ ncl.ucpress.edu
-HJ nclr.ucpress.edu
-HJ ncm.ucpress.edu
-HJ nr.ucpress.edu
-HJ online.ucpress.edu
-HJ phr.ucpress.edu
-HJ phr.ucpress.edu
-HJ rac.ucpress.edu
-HJ rep.ucpress.edu
-HJ rh.ucpress.edu
-HJ scq.ucpress.edu
-HJ sla.ucpress.edu
-HJ socdev.ucpress.edu
-HJ tph.ucpress.edu
-HJ vs.ucpress.edu
-HJ www.ucpress.edu
-HJ www.ucpressjournals.com
-DJ ucpress.edu
-DJ ucpressjournals.com
-
 # University of Chicago Press Journals moved to common stanza: university-chicago-press-journals.txt
+# University Press Scholarship Online moved to common stanza: oxford-academic.txt
 # UpToDate moved to common stanza
-# OCLC FirstSearch moved to common_stanza
-
-
-# Modern Language Association moved to common stanza per ralight 2025-08-13
-
-# Updated per ralight 2026-07-06
-Title Mango Languages (updated 20260622)
-URL https://connect.mangolanguages.com/indiana-university-northwest/start
-HJ connect.mangolanguages.com
-HJ https://libraries.mangolanguages.com
-HJ libraries.mangolanguages.com
-DJ mangolanguages.com
-
-
-# Geological Society of America Bulletin moved to common stanza: geoscienceworld.txt
-
-
 #  Wiley Digital Archives moved to common stanza
-
-# Newsbank/Readex Databases moved to common_stanza
-
-Title Education Week (OCLC IncludeFile updated 20230615)
-URL https://www.edweek.org/
-HJ www.edweek.org
-DJ edweek.org
-DJ pelcro.com
