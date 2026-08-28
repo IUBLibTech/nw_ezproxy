@@ -4,4 +4,5 @@
 INCLUDEFILE ../common_stanzas/aacrjournals.txt
 INCLUDEFILE ../common_stanzas/clarivate.txt
 INCLUDEFILE ../common_stanzas/candid.txt
+INCLUDEFILE ../common_stanzas/education-week.txt
 INCLUDEFILE ../common_stanzas/uptodate.txt
