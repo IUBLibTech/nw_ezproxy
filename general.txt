@@ -7,17 +7,24 @@
 ##################### END TEMP/TRIAL STANZAS ##################################
 
 
-# AAPG Datapages moved to common stanza
+# AAPG Datapages moved to common stanza: aapg-datapages.txt
 # ACM Digital Library moved to common stanza: acmdigital.txt
 # Adam Matthew moved to common stanza: amdigital.txt
-# American Chemical Society moved to common stanza
-# American National Biography Online moved to common stanza
+# Alexander Street moved to common stanza: alexanderstreet.txt
+# American Chemical Society moved to common stanza: american-chemical-society.txt
+# American National Biography Online moved to common stanza: american-national-biography.txt
 # American Physiological Society moved to common stanza: american-physiological-society.txt
 # Annual Reviews moved to common stanza: annual-reviews.txt
-# BioOne Complete moved to common stanza
-# Britannica - Consumer moved to common stanza
+# BioOne Complete moved to common stanza: bioone.txt
+# BMJ moved to common stanza: bmj.txt
+# Brill moved to common stanza: brillonline.txt
+# Britannica - Consumer moved to common stanza: britannicaacademic.txt
+# Browzine/Third Iron moved to common stanza: browzine_thirdiron.txt
 # Cambridge Journals Online moved to common stanza: cambridge_core.txt
+# Chronicle of Higher Education moved to common stanza: chronicle.txt
 # CIC E-publishing Venture moved to common stanza: cic-epublishing-venture.txt
+# Cochrane Library moved to common stanza: cochranelibrary.txt
+# Cookie Law moved to common stanza: cookielaw.txt
 
 # Updated per ralight 2026-07-31
 Title CountryWatch (Updated 20230429)
@@ -33,9 +40,12 @@ HJ videos.countrywatch.com
 HJ countrywatch.com
 DJ countrywatch.com
 
+# De Gruyter moved to common stanza: degruyter.txt
 # Dictionary of Old English moved to common stanza: doe-web-corpus.txt
 # Digital Theatre Plus moved to common stanza: digital-theatre-plus.txt
-# DOI system moved to common stanza
+# Docuseek2 moved to common stanza: docuseek2.txt
+# DOI system moved to common stanza: doi-system.txt
+# Duke University Press moved to common stanza: duke.txt
 
 # Last reviewed by ralight on 2026-07-31
 # Updated per ralight 2023-10-06
@@ -49,7 +59,10 @@ NeverProxy ebookcentral.proquest.com
 NeverProxy iun.ebookcentral.proquest.com
 NeverProxy acs.ebookcentral.proquest.com
 
+# EBSCOhost moved to common stanza: ebscohost.txt
 # Education Week moved to common stanza: education-week.txt
+# Elsevier moved to common stanza: elsevier.txt
+# Emerald journals moved to common stanza: emerald.txt
 # Ent Today moved to common stanza
 
 # Updated per ralight 2026-08-06
@@ -61,12 +74,16 @@ NeverProxy http://lm3uq2cn8k.search.serialssolutions.com
 NeverProxy https://lm3uq2cn8k.search.serialssolutions.com
 
 # Foundation Directory Online moved to common stanza: candid.txt
-# Fulcrum moved to common stanza
+# Fulcrum moved to common stanza fulcrum.txt
+# Gale moved to common stanza: gale.txt
 # Geological Society of America Bulletin moved to common stanza: geoscienceworld.txt
-# Google Scholar moved to common stanza
-# Harper's Weekly moved to common stanza: alexanderstreet.com
-# IngentaConnect moved to common stanza
-# INSPIRE moved to common stanza
+# GetFTR moved to common stanza: getftr.txt
+# Google Scholar moved to common stanza: google-scholar.txt
+# Harper's Weekly moved to common stanza: alexanderstreet.txt
+# Hein Online moved to common stanza: heinonline.txt
+# Infobase moved to common stanza: infobase.txt
+# IngentaConnect moved to common stanza: ingentaconnect.txt
+# INSPIRE moved to common stanza: inspire.txt
 
 # Last reviewed by ralight 2026-07-31
 Title Irish Newspaper Archive
@@ -77,6 +94,9 @@ DJ irishnewsarchive.com
 DJ archive.irishnewsarchive.com
 
 # JAMAevidence moved to common stanza: mcgraw_hill_medical.txt
+# JAMA Network moved to common stanza: jamanetwork.txt
+# JSAD moved to common stanza: jsad.txt
+# JSTOR moved to common stanza: jstor.txt
 
 # Added per ralight 2026-07-31
 Title Kanopy Streaming (updated 20180418)
@@ -90,9 +110,11 @@ URL http://iun.kanopy.com
 H https://iun.kanopy.com
 D kanopy.com
 
+# Knovel moved to common stanza: knovel.txt
 # LibLynx moved to common stanza: liblynx.txt
-# Liebert moved to common_stanza
-# Learning Express Library 3.0 - PrepStep for Colleges moved to common stanza
+# Liebert moved to common stanza: liebert.txt
+# Learning Express Library 3.0 - PrepStep for Colleges moved to common stanza: learning-express-library.txt
+# Loeb Classical moved to common stanza: loebclassical.txt
 
 # Updated per ralight 2026-07-06
 Title Mango Languages (updated 20260622)
@@ -102,12 +124,17 @@ HJ https://libraries.mangolanguages.com
 HJ libraries.mangolanguages.com
 DJ mangolanguages.com
 
-# MathSciNet moved to common_stanzas
+# Marketline moved to common stanza: marketline_advantage.txt
+# MathSciNet moved to common stanza: mathscinet.txt
+# Mergent moved to common stanza: mergent.txt
 # MIT Press Journals moved to common stanza: mitpressdirect.txt
-# Modern Language Association moved to common stanza per ralight 2025-08-13
+# Modern Language Association moved to common stanza: modernlanguageassociation.txt
 # National Council of Teachers of Mathematics moved to common stanza: nctm.txt
-# Newsbank/Readex Databases moved to common_stanza
-# OCLC FirstSearch moved to common_stanza
+# Nature Journals moved to common stanza: nature.txt
+# NCTE moved to common stanza: ncteorg.txt
+# New England Journal of Medicine moved to common stanza: nejm.txt
+# Newsbank/Readex Databases moved to common stanza: newsbank-readex.txt
+# OCLC FirstSearch moved to common_stanza: oclc-firstsearch.txt
 
 # Updated per ralight 2026-08-18
 # Subscribed title, Woman's Art Journal, is cancelled with end of 2026, no PCA. Remove stanza in January 2027
@@ -118,8 +145,11 @@ HJ https://oldcitypublishing.com
 HJ www.oldcitypublishing.com
 DJ oldcitypublishing.com
 
-# Oxford Academic moved to common stanza
-# Oxford Reference moved to common stanza
+# Open Book Publishers moved to common stanza: openbookpublishers.txt
+# Ovid moved to common stanza: ovid.txt
+# Oxford Academic moved to common stanza: oxford-academic.txt
+# Oxford English Dictionary moved to common stanza: oed.txt
+# Oxford Reference moved to common stanza: oxford-reference.txt
 # Papers of George Washington Digital Edition moved to common stanza: rotunda.txt
 
 # Updated per ralight 2026-08-06
@@ -131,11 +161,12 @@ HJ https://www.policymap.com
 HJ www.policymap.com
 DJ policymap.com
 
-# Project Muse moved to common stanza
+# Project Muse moved to common stanza: project-muse.txt
+# ProQuest moved to common stanza: proquest.txt
 # PsychiatryOnline (American Journal of Psychiatry) moved to common stanza: psychiatryonline.txt
 # PsychoTherapy Streaming moved to common stanza: psychotherapy-net.txt
 # PsycTHERAPY moved to common stanza: apa_psycnet.txt
-# PubMed moved to common stanza
+# PubMed moved to common stanza: pubmed.txt
 
 # Updated per ralight 2026-07-31
 # Stanza previously called RSNA Journals
@@ -156,7 +187,11 @@ HJ www2.rsna.org
 DJ rsna.org
 DJ rsnajnls.org
 
+# Reference USA moved to common stanza: referenceusa.txt
+# Royal Society of Chemistry moved to common stanza: royal_society_of_chem.txt
+# Sage moved to common stanza: sage.txt
 # Scientific American moved to common stanza: scientific-american.txt
+# SciFinder moved to common stanza: scifinder.txt
 # Scitation moved to common stanza: aip-publishing.txt
 
 # Cancelled effective February 28, 2027. Remove stanza then. ER013 08-21-26 
@@ -169,12 +204,14 @@ HJ www.sculpture.org
 DJ sculpture.org
 
 # Skillport8i moved to common stanza: skillport8i.txt
+# Springer Nature moved to common stanza: springerlink.txt
 # Swank Digital Campus moved to common stanza: swank-digital-campus.txt
 # Taylor & Francis moved to common stanza: taylor-francis-online.txt
-# TeachingBooks moved to common stanza
+# TeachingBooks moved to common stanza: teachingbooks.txt
 # Teaching Channel moved to common stanza: teaching-channel.txt
 # Ulrichsweb moved to common stanza: ulrichsweb.txt
 # University of Chicago Press Journals moved to common stanza: university-chicago-press-journals.txt
 # University Press Scholarship Online moved to common stanza: oxford-academic.txt
-# UpToDate moved to common stanza
-#  Wiley Digital Archives moved to common stanza
+# UpToDate moved to common stanza: uptodate.txt
+# Wiley Digital Archives moved to common stanza: wiley-digital-archive.txt
+# Wiley Online Library moved to common stanza: wiley_online.txt
