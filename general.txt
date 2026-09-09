@@ -133,6 +133,7 @@ DJ mangolanguages.com
 # Nature Journals moved to common stanza: nature.txt
 # NCTE moved to common stanza: ncteorg.txt
 # New England Journal of Medicine moved to common stanza: nejm.txt
+# New York Times moved to common stanza: access-nyt.txt
 # Newsbank/Readex Databases moved to common stanza: newsbank-readex.txt
 # OCLC FirstSearch moved to common_stanza: oclc-firstsearch.txt
 
