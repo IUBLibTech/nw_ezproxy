@@ -7,3 +7,4 @@ INCLUDEFILE ../common_stanzas/candid.txt
 INCLUDEFILE ../common_stanzas/education-week.txt
 INCLUDEFILE ../common_stanzas/uptodate.txt
 INCLUDEFILE ../common_stanzas/oxford-music-online.txt
+INCLUDEFILE ../common_stanzas/rotunda.txt
